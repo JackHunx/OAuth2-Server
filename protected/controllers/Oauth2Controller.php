@@ -14,7 +14,7 @@ class Oauth2Controller extends Controller
 	}
     public function actionAuthorize()
     {
-        $this->oauth->authorize();
+        $this->oauth->authorize(true);
     }
     
 	// Uncomment the following methods and override them if needed

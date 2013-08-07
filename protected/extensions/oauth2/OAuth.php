@@ -42,9 +42,12 @@ class OAuth
         $this->server->handleTokenRequest(OAuth2\Request::createFromGlobals())->send();
     }
     /**
-     * return access code
+     * return access code if $ahorized not authed so return to redirect_uri
+     * 
+     * @param bool $authorized true or false
+     * @return mixed access code or return to redirect_uri
      */
-    public function authorize()
+    public function authorize($authorized = false)
     {
         $request = OAuth2\Request::createFromGlobals();
         $response = new OAuth2\Response();
@@ -55,24 +58,27 @@ class OAuth
             die;
         }
         // display an authorization form
-        if (empty($_POST)) {
-            exit('
-<form method="post">
-  <label>Do You Authorize TestClient?</label><br />
-  <input type="submit" name="authorized" value="yes">
-  <input type="submit" name="authorized" value="no">
-</form>');
-        }
+        //if (empty($_POST)) {
+        //            exit('
+        //<form method="post">
+        //  <label>Do You Authorize TestClient?</label><br />
+        //  <input type="submit" name="authorized" value="yes">
+        //  <input type="submit" name="authorized" value="no">
+        //</form>');
+        //        }
 
         // print the authorization code if the user has authorized your client
-        $is_authorized = ($_POST['authorized'] === 'yes');
-        $this->server->handleAuthorizeRequest($request, $response, $is_authorized);
-        if ($is_authorized) {
-            // this is only here so that you get to see your code in the cURL request. Otherwise, we'd redirect back to the client
-            $code = substr($response->getHttpHeader('Location'), strpos($response->
-                getHttpHeader('Location'), 'code=') + 5, 40);
-            exit("SUCCESS! Authorization Code: $code");
+        //$is_authorized = ($_POST['authorized'] === 'yes');
+        $this->server->handleAuthorizeRequest($request, $response, $authorized);
+        //if ($is_authorized) {
+        // this is only here so that you get to see your code in the cURL request. Otherwise, we'd redirect back to the client
+        if($authorized)
+        {
+        $code = substr($response->getHttpHeader('Location'), strpos($response->
+            getHttpHeader('Location'), 'code=') + 5, 40);
+        exit("SUCCESS! Authorization Code: $code");
         }
+        // }
         $response->send();
     }
 }
