@@ -1,0 +1,449 @@
+2013/08/07 07:23:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\srv\www\framework\web\CController.php:483
+Stack trace:
+#0 D:\srv\www\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\srv\www\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2')
+#3 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\srv\www\oauthserver\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=oauth2
+HTTP_REFERER=http://localhost/index.php?r=gii/controller
+---
+2013/08/07 07:23:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "token".' in D:\srv\www\framework\web\CController.php:483
+Stack trace:
+#0 D:\srv\www\framework\web\CController.php(270): CController->missingAction('token')
+#1 D:\srv\www\framework\web\CWebApplication.php(282): CController->run('token')
+#2 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/token')
+#3 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\srv\www\oauthserver\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=oauth2/token
+---
+2013/08/07 07:23:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "token".' in D:\srv\www\framework\web\CController.php:483
+Stack trace:
+#0 D:\srv\www\framework\web\CController.php(270): CController->missingAction('token')
+#1 D:\srv\www\framework\web\CWebApplication.php(282): CController->run('token')
+#2 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/token')
+#3 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\srv\www\oauthserver\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=oauth2/token
+---
+2013/08/07 07:24:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "token".' in D:\srv\www\framework\web\CController.php:483
+Stack trace:
+#0 D:\srv\www\framework\web\CController.php(270): CController->missingAction('token')
+#1 D:\srv\www\framework\web\CWebApplication.php(282): CController->run('token')
+#2 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/token')
+#3 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\srv\www\oauthserver\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=oauth2/token
+---
+2013/08/07 07:24:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "token".' in D:\srv\www\framework\web\CController.php:483
+Stack trace:
+#0 D:\srv\www\framework\web\CController.php(270): CController->missingAction('token')
+#1 D:\srv\www\framework\web\CWebApplication.php(282): CController->run('token')
+#2 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/token')
+#3 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\srv\www\oauthserver\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=oauth2/token
+---
+2013/08/07 07:24:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "token".' in D:\srv\www\framework\web\CController.php:483
+Stack trace:
+#0 D:\srv\www\framework\web\CController.php(270): CController->missingAction('token')
+#1 D:\srv\www\framework\web\CWebApplication.php(282): CController->run('token')
+#2 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/token')
+#3 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\srv\www\oauthserver\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=oauth2/token
+---
+2013/08/07 07:24:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "token".' in D:\srv\www\framework\web\CController.php:483
+Stack trace:
+#0 D:\srv\www\framework\web\CController.php(270): CController->missingAction('token')
+#1 D:\srv\www\framework\web\CWebApplication.php(282): CController->run('token')
+#2 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/token')
+#3 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\srv\www\oauthserver\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=oauth2/token
+---
+2013/08/07 07:24:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "token".' in D:\srv\www\framework\web\CController.php:483
+Stack trace:
+#0 D:\srv\www\framework\web\CController.php(270): CController->missingAction('token')
+#1 D:\srv\www\framework\web\CWebApplication.php(282): CController->run('token')
+#2 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/token')
+#3 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\srv\www\oauthserver\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=oauth2/token
+---
+2013/08/07 07:24:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "token".' in D:\srv\www\framework\web\CController.php:483
+Stack trace:
+#0 D:\srv\www\framework\web\CController.php(270): CController->missingAction('token')
+#1 D:\srv\www\framework\web\CWebApplication.php(282): CController->run('token')
+#2 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/token')
+#3 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\srv\www\oauthserver\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=oauth2/token
+---
+2013/08/07 07:24:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "token".' in D:\srv\www\framework\web\CController.php:483
+Stack trace:
+#0 D:\srv\www\framework\web\CController.php(270): CController->missingAction('token')
+#1 D:\srv\www\framework\web\CWebApplication.php(282): CController->run('token')
+#2 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/token')
+#3 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\srv\www\oauthserver\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=oauth2/token
+---
+2013/08/07 07:24:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "token".' in D:\srv\www\framework\web\CController.php:483
+Stack trace:
+#0 D:\srv\www\framework\web\CController.php(270): CController->missingAction('token')
+#1 D:\srv\www\framework\web\CWebApplication.php(282): CController->run('token')
+#2 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/token')
+#3 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\srv\www\oauthserver\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=oauth2/token
+---
+2013/08/07 07:24:11 [error] [php] include(OAuth.php): failed to open stream: No such file or directory (D:\srv\www\framework\YiiBase.php:421)
+Stack trace:
+#0 D:\srv\www\oauthserver\protected\controllers\Oauth2Controller.php(7): spl_autoload_call()
+#1 D:\srv\www\framework\web\actions\CInlineAction.php(49): Oauth2Controller->actionToken()
+#2 D:\srv\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\srv\www\framework\web\CController.php(286): Oauth2Controller->runAction()
+#4 D:\srv\www\framework\web\CController.php(265): Oauth2Controller->runActionWithFilters()
+#5 D:\srv\www\framework\web\CWebApplication.php(282): Oauth2Controller->run()
+#6 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 D:\srv\www\oauthserver\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=oauth2/token
+in D:\srv\www\oauthserver\protected\controllers\Oauth2Controller.php (7)
+in D:\srv\www\oauthserver\index.php (13)
+2013/08/07 07:31:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\srv\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\srv\www\oauthserver\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/07 07:33:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\srv\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\srv\www\oauthserver\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/07 07:33:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\srv\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\srv\www\oauthserver\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/07 07:33:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\srv\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\srv\www\oauthserver\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/07 07:33:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\srv\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\srv\www\oauthserver\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/07 07:33:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\srv\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\srv\www\oauthserver\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/07 07:33:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\srv\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\srv\www\oauthserver\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/07 07:34:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\srv\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\srv\www\oauthserver\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/07 07:34:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\srv\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\srv\www\oauthserver\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/07 07:34:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\srv\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\srv\www\oauthserver\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/07 07:34:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\srv\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\srv\www\oauthserver\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/07 07:34:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\srv\www\framework\web\CController.php:483
+Stack trace:
+#0 D:\srv\www\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\srv\www\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2')
+#3 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\srv\www\oauthserver\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oauth2/
+---
+2013/08/07 07:34:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\srv\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\srv\www\oauthserver\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/07 07:34:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\srv\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\srv\www\oauthserver\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/07 07:34:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\srv\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\srv\www\oauthserver\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/07 07:34:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\srv\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\srv\www\oauthserver\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/07 07:34:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\srv\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\srv\www\oauthserver\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/07 07:34:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\srv\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\srv\www\oauthserver\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/07 07:34:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\srv\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\srv\www\oauthserver\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/07 07:34:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\srv\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\srv\www\oauthserver\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/07 07:34:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\srv\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\srv\www\oauthserver\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/07 07:34:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\srv\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\srv\www\oauthserver\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/07 07:34:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\srv\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\srv\www\oauthserver\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/07 07:34:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\srv\www\framework\web\CController.php:483
+Stack trace:
+#0 D:\srv\www\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\srv\www\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2')
+#3 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\srv\www\oauthserver\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/oauth2
+---
+2013/08/07 07:35:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\srv\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\srv\www\oauthserver\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/07 07:35:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\srv\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\srv\www\oauthserver\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/07 07:35:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\srv\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\srv\www\oauthserver\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/07 07:35:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\srv\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\srv\www\oauthserver\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/07 07:35:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\srv\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\srv\www\oauthserver\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/07 07:35:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\srv\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\srv\www\oauthserver\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/07 07:35:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\srv\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\srv\www\oauthserver\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/07 07:35:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\srv\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\srv\www\oauthserver\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/07 07:35:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\srv\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\srv\www\oauthserver\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/07 07:37:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\srv\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\srv\www\oauthserver\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/07 07:37:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\srv\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\srv\www\oauthserver\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/07 07:37:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\srv\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\srv\www\oauthserver\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/07 07:37:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\srv\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\srv\www\oauthserver\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/07 07:37:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\srv\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\srv\www\oauthserver\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/07 07:37:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\srv\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\srv\www\oauthserver\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/07 07:37:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\srv\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\srv\www\oauthserver\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---

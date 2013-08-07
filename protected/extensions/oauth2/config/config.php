@@ -1,0 +1,1 @@
+<?phpreturn array(    //pdo config    'pdo'=>array(        'dsn'=>'mysql:dbname=oauth2;host=localhost',        'username'=>'root',        'password'=>''    ),);?>
