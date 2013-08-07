@@ -11,28 +11,31 @@ class OAuth
     private $storage;
     //server
     private $server;
-	//config
-	private $config;
+    //config
+    private $config;
     /**
      * @param array $connection for pdo
      */
     public function __construct($connect)
     {
-		//$this->_config=require_once dirname(). DIRECTORY_SEPARATOR .'config/config.php';
+        //$this->_config=require_once dirname(). DIRECTORY_SEPARATOR .'config/config.php';
         OAuth2\Autoloader::register();
         $this->storage = new OAuth2\Storage\Pdo($connect);
         $this->server = new OAuth2\Server($this->storage);
-        $this->server->addGrantType(new OAuth2\GrantType\ClientCredentials($this->storage));
+        $this->server->addGrantType(new OAuth2\GrantType\ClientCredentials($this->
+            storage));
 
         // Add the "Authorization Code" grant type (this is where the oauth magic happens)
-        $this->server->addGrantType(new OAuth2\GrantType\AuthorizationCode($this->storage));
+        $this->server->addGrantType(new OAuth2\GrantType\AuthorizationCode($this->
+            storage));
+        $this->server->addGrantType(new OAuth2\GrantType\UserCredentials($this->storage));
     }
-	
-	
+
+
     /**
      * @return string token code
      */
-	 
+
     public function token()
     {
         // Handle a request for an OAuth2.0 Access Token and send the response to the client
