@@ -2,11 +2,21 @@
 
 class Oauth2Controller extends Controller
 {
+    private $oauth;
+    public function init()
+    {
+        $this->oauth = new OAuth(Yii::app()->params['pdo']);
+    }
 	public function actionToken()
 	{
-		$oauth = new OAuth(Yii::app()->params['pdo']);
-		$oauth->token();
+		
+		$this->oauth->token();
 	}
+    public function actionAuthorize()
+    {
+        $this->oauth->authorize();
+    }
+    
 	// Uncomment the following methods and override them if needed
 	/*
 	public function filters()
