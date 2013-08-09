@@ -2,6 +2,7 @@
 
 class OauthController extends Controller
 {
+    private $loginUrl;
     //init
     public function init()
     {
@@ -14,7 +15,7 @@ class OauthController extends Controller
             'user' => array(
                 'class' => 'CWebUser',
                 'stateKeyPrefix' => 'gii',
-                'loginUrl' => Yii::app()->createUrl($this->getId() . '/default/login'),
+                'loginUrl' => Yii::app()->createUrl($this->getId() . '/login'),
                 ),
             'widgetFactory' => array('class' => 'CWidgetFactory', 'widgets' => array())), false);
        Yii::app()->user->loginRequired();
@@ -38,4 +39,13 @@ class OauthController extends Controller
     {
 
     }
+    /**
+     * set loginUrl
+     * 
+     * @param string $loginUrl where the login template 
+     */
+     protected function setLoginUrl($loginUrl=null)
+     {
+        //$this->loginUrl = $loginUrl == null ? Yii::app()
+     }
 }
