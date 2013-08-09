@@ -11,6 +11,7 @@ class Oauth2Module extends CWebModule
 		$this->setImport(array(
 			'oauth2.models.*',
 			'oauth2.components.*',
+            'oauth2.extensions.oauth2.*',
             'oauth2.controllers.OauthController',
 		));
 	}

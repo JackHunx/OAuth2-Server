@@ -16,7 +16,7 @@ return array(
     'import' => array(
         'application.models.*',
         'application.components.*',
-        'application.extensions.oauth2.*',
+        //'application.extensions.oauth2.*',
         ),
 
     'modules' => array(

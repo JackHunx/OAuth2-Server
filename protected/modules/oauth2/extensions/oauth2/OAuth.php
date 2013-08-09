@@ -53,7 +53,7 @@ class OAuth
      * @param bool $authorized true or false
      * @return mixed access code or return to redirect_uri
      */
-    public function authorize($authorized = false)
+    public function authorize($authorized = false,$user_id=null)
     {
         $request = OAuth2\Request::createFromGlobals();
         $response = new OAuth2\Response();
@@ -77,7 +77,7 @@ class OAuth
 
         // print the authorization code if the user has authorized your client
         //$is_authorized = ($_POST['authorized'] === 'yes');
-        $this->server->handleAuthorizeRequest($request, $response, $authorized);
+        $this->server->handleAuthorizeRequest($request, $response, $authorized,$user_id);
         //if ($is_authorized) {
         // this is only here so that you get to see your code in the cURL request. Otherwise, we'd redirect back to the client
         if ($authorized) {

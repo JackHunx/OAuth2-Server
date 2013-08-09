@@ -3,7 +3,7 @@
 class AuthorizeController extends OauthController
 {
     //private $oauth;
-    //public $defaultAction='test';
+    //public $defaultAction='index';
     public function actionIndex()
     {
      

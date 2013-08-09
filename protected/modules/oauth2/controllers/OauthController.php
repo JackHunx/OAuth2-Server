@@ -34,11 +34,12 @@ class OauthController extends Controller
     }
     /**
      * authorize 
-     * @return boolen true or false
+     * 
      */
     public function actionAuthorize()
     {
-
+        $authorize = $this->login();
+        $this->getStorage()->authorize($authorize,$this->getUserId());
     }
     /**
      * set loginUrl
@@ -49,5 +50,24 @@ class OauthController extends Controller
      {
         //$this->loginUrl = $loginUrl == null ? Yii::app()
      }
-     //protected function login
+     /**
+      * @return boolen true or false
+      */
+     protected function login()
+     {
+        if()
+        $this->renderPartial('/default/login');
+        //return true;
+     }
+     /**
+      * @return mixed null or $user_id
+      */
+     protected function getUserId()
+     {
+        return Yii::app()->user->id == null ? null : Yii::app()->user->id;
+     }
+     
+     
+     
+     
 }
