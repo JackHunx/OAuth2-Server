@@ -2,23 +2,24 @@
 
 class OauthController extends Controller
 {
+    public $defaultAction='authorize';
     private $loginUrl;
     //init
     public function init()
     {
-        parent::init();
-        Yii::app()->setComponents(array(
-            'errorHandler' => array(
-                'class' => 'CErrorHandler',
-                'errorAction' => $this->getId() . '/default/error',
-                ),
-            'user' => array(
-                'class' => 'CWebUser',
-                'stateKeyPrefix' => 'gii',
-                'loginUrl' => Yii::app()->createUrl($this->getId() . '/login'),
-                ),
-            'widgetFactory' => array('class' => 'CWidgetFactory', 'widgets' => array())), false);
-       Yii::app()->user->loginRequired();
+        //parent::init();
+//        Yii::app()->setComponents(array(
+//            'errorHandler' => array(
+//                'class' => 'CErrorHandler',
+//                'errorAction' => $this->getId() . '/default/error',
+//                ),
+//            'user' => array(
+//                'class' => 'CWebUser',
+//                'stateKeyPrefix' => 'gii',
+//                'loginUrl' => Yii::app()->createUrl($this->getId() . '/login'),
+//                ),
+//            'widgetFactory' => array('class' => 'CWidgetFactory', 'widgets' => array())), false);
+//       Yii::app()->user->loginRequired();
     }
     //
     protected function beforeAction($action)
@@ -35,7 +36,7 @@ class OauthController extends Controller
      * authorize 
      * @return boolen true or false
      */
-    public function authorize()
+    public function actionAuthorize()
     {
 
     }
@@ -48,4 +49,5 @@ class OauthController extends Controller
      {
         //$this->loginUrl = $loginUrl == null ? Yii::app()
      }
+     //protected function login
 }

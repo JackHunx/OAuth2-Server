@@ -1580,3 +1580,152 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/OAuth2-for-Yii/index.php/token/login
 ---
+2013/08/09 21:16:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "authorize/login".' in D:\srv\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('authorize/login')
+#1 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\srv\www\OAuth2-for-Yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-for-Yii/index.php/authorize/login
+HTTP_REFERER=http://localhost/client/
+---
+2013/08/09 21:26:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oatuh2/authorize".' in D:\srv\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oatuh2/authoriz...')
+#1 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\srv\www\OAuth2-for-Yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-for-Yii/oatuh2/authorize
+---
+2013/08/09 21:26:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oatuh2/authorize".' in D:\srv\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oatuh2/authoriz...')
+#1 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\srv\www\OAuth2-for-Yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-for-Yii/index.php/oatuh2/authorize
+---
+2013/08/09 21:26:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oatuh2/authorize".' in D:\srv\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oatuh2/authoriz...')
+#1 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\srv\www\OAuth2-for-Yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-for-Yii/index.php/oatuh2/authorize
+---
+2013/08/09 21:26:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oatuh2/authorize".' in D:\srv\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oatuh2/authoriz...')
+#1 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\srv\www\OAuth2-for-Yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-for-Yii/index.php/oatuh2/authorize
+---
+2013/08/09 21:26:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oatuh2/authorize".' in D:\srv\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oatuh2/authoriz...')
+#1 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\srv\www\OAuth2-for-Yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-for-Yii/index.php/oatuh2/authorize
+---
+2013/08/09 21:26:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oatuh2/authorize".' in D:\srv\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oatuh2/authoriz...')
+#1 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\srv\www\OAuth2-for-Yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-for-Yii/index.php/oatuh2/authorize
+---
+2013/08/09 21:26:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oatuh2/authorize".' in D:\srv\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oatuh2/authoriz...')
+#1 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\srv\www\OAuth2-for-Yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-for-Yii/index.php/oatuh2/authorize
+---
+2013/08/09 21:26:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oatuh2/authorize".' in D:\srv\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oatuh2/authoriz...')
+#1 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\srv\www\OAuth2-for-Yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-for-Yii/index.php/oatuh2/authorize
+---
+2013/08/09 21:26:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oatuh2/authorize".' in D:\srv\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oatuh2/authoriz...')
+#1 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\srv\www\OAuth2-for-Yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-for-Yii/index.php/oatuh2/authorize
+---
+2013/08/09 21:27:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oatuh2/authorize".' in D:\srv\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oatuh2/authoriz...')
+#1 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\srv\www\OAuth2-for-Yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-for-Yii/index.php/oatuh2/authorize
+---
+2013/08/09 21:27:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oatuh2/authorize".' in D:\srv\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oatuh2/authoriz...')
+#1 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\srv\www\OAuth2-for-Yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-for-Yii/index.php/oatuh2/authorize
+---
+2013/08/09 21:27:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oatuh2/authorize".' in D:\srv\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oatuh2/authoriz...')
+#1 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\srv\www\OAuth2-for-Yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-for-Yii/index.php/oatuh2/authorize
+---
+2013/08/09 21:27:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oatuh2/authorize".' in D:\srv\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oatuh2/authoriz...')
+#1 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\srv\www\OAuth2-for-Yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-for-Yii/index.php/oatuh2/authorize
+---
+2013/08/09 21:27:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oatuh2/authorize".' in D:\srv\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oatuh2/authoriz...')
+#1 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\srv\www\OAuth2-for-Yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-for-Yii/index.php/oatuh2/authorize
+---
+2013/08/09 21:27:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oatuh2/authorize".' in D:\srv\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oatuh2/authoriz...')
+#1 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\srv\www\OAuth2-for-Yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-for-Yii/index.php/oatuh2/authorize
+---
+2013/08/09 21:27:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test".' in D:\srv\www\framework\web\CController.php:483
+Stack trace:
+#0 D:\srv\www\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\srv\www\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/authoriz...')
+#3 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\srv\www\OAuth2-for-Yii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/OAuth2-for-Yii/index.php/oauth2/authorize
+---
+2013/08/09 21:28:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "authorize".' in D:\srv\www\framework\web\CController.php:483
+Stack trace:
+#0 D:\srv\www\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\srv\www\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/authoriz...')
+#3 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\srv\www\OAuth2-for-Yii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/OAuth2-for-Yii/index.php/oauth2/authorize
+---
