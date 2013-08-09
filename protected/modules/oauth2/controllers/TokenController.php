@@ -1,21 +1,21 @@
 <?php
 
-class TokenController extends Controller
+class TokenController extends OauthController
 {
-	private $oauth;
+	//private $oauth;
     public function actionIndex()
     {
-        $this->oauth->token();
+        $this->getStorage()->token();
     }
 
-    public function setOauth($oauth)
-    {
-        if (is_object($oauth)) {
-            $this->oauth=$oauth;
-        }else{
-            throw new CException('param is not an object ');
-        }
-    }
+    //public function setOauth($oauth)
+//    {
+//        if (is_object($oauth)) {
+//            $this->oauth=$oauth;
+//        }else{
+//            throw new CException('param is not an object ');
+//        }
+//    }
 	// Uncomment the following methods and override them if needed
 	/*
 	public function filters()

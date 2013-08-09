@@ -57,12 +57,14 @@ class OAuth
     {
         $request = OAuth2\Request::createFromGlobals();
         $response = new OAuth2\Response();
-
+        
         // validate the authorize request
         if (!$this->server->validateAuthorizeRequest($request, $response)) {
+            //exit();
             $response->send();
             die;
         }
+       
         // display an authorization form
         //if (empty($_POST)) {
         //            exit('
@@ -81,8 +83,8 @@ class OAuth
         if ($authorized) {
             //exit();
             //$code = substr($response->getHttpHeader('Location'), strpos($response->
-            //            getHttpHeader('Location'), 'code=') + 5, 40);
-            //exit("SUCCESS! Authorization Code: $code");
+//                       getHttpHeader('Location'), 'code=') + 5, 40);
+//            exit("SUCCESS! Authorization Code: $code");
         }
         // }
         $response->send();

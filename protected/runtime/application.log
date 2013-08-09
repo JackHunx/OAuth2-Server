@@ -1329,3 +1329,14 @@ Stack trace:
 REQUEST_URI=/OAuth2-for-Yii/index.php/oauth2/oauth
 HTTP_REFERER=http://localhost/OAuth2-for-Yii/index.php/gii/controller
 ---
+2013/08/09 03:16:15 [error] [php] Undefined property: OAuth::$oauth (D:\www\OAuth2-for-Yii\protected\modules\oauth2\controllers\AuthorizeController.php:8)
+Stack trace:
+#0 D:\www\framework\web\CController.php(286): AuthorizeController->runAction()
+#1 D:\www\framework\web\CController.php(265): AuthorizeController->runActionWithFilters()
+#2 D:\www\framework\web\CWebApplication.php(282): AuthorizeController->run()
+#3 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 D:\www\OAuth2-for-Yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/OAuth2-for-Yii/index.php/oauth2/authorize
+in D:\www\OAuth2-for-Yii\protected\modules\oauth2\controllers\AuthorizeController.php (8)
+in D:\www\OAuth2-for-Yii\index.php (13)

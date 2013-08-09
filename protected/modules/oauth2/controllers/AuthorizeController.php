@@ -1,19 +1,21 @@
 <?php
 
-class AuthorizeController extends Controller
+class AuthorizeController extends OauthController
 {
-    private $oauth;
+    //private $oauth;
     public function actionIndex()
     {
-        $this->oauth->authorize(true);
+     
+      $this->getStorage()->authorize(true);
+      
     }
-
-    public function setOauth($oauth)
-    {
-        if (is_object($oauth)) {
-            $this->oauth=$oauth;
-        }else{
-            throw new CException('param is not an object ');
-        }
-    }
+//
+//    public function setOauth($oauth)
+//    {
+//        if (is_object($oauth)) {
+//            $this->oauth=$oauth;
+//        }else{
+//            throw new CException('param is not an object ');
+//        }
+//    }
 }
