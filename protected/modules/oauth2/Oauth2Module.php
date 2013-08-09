@@ -11,6 +11,7 @@ class Oauth2Module extends CWebModule
 		$this->setImport(array(
 			'oauth2.models.*',
 			'oauth2.components.*',
+            'oauth2.controllers.OauthController',
 		));
 	}
 
@@ -20,7 +21,7 @@ class Oauth2Module extends CWebModule
 		{
 			// this method is called before any module controller action is performed
 			// you may place customized code here
-            $controller->setOauth(new OAuth(Yii::app()->params['pdo']));
+            //$controller->setOauth(new OAuth(Yii::app()->params['pdo']));
 			return true;
 		}
 		else

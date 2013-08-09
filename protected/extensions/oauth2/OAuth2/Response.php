@@ -209,6 +209,7 @@ class Response implements ResponseInterface
         foreach ($this->getHttpHeaders() as $name => $header) {
             header(sprintf('%s: %s', $name, $header));
         }
+        //exit();
         echo $this->getResponseBody($format);
     }
 
