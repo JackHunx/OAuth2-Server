@@ -1316,3 +1316,16 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/OAuth2-for-Yii/
 ---
+2013/08/09 03:02:56 [error] [exception.CException] exception 'CException' with message 'OauthController and its behaviors do not have a method or closure named "setOauth".' in D:\www\framework\base\CComponent.php:265
+Stack trace:
+#0 D:\www\OAuth2-for-Yii\protected\modules\oauth2\Oauth2Module.php(23): CComponent->__call('setOauth', Array)
+#1 D:\www\OAuth2-for-Yii\protected\modules\oauth2\Oauth2Module.php(23): OauthController->setOauth(Object(OAuth))
+#2 D:\www\framework\web\CController.php(263): Oauth2Module->beforeControllerAction(Object(OauthController), Object(CInlineAction))
+#3 D:\www\framework\web\CWebApplication.php(282): CController->run('')
+#4 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/oauth')
+#5 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 D:\www\OAuth2-for-Yii\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/OAuth2-for-Yii/index.php/oauth2/oauth
+HTTP_REFERER=http://localhost/OAuth2-for-Yii/index.php/gii/controller
+---
