@@ -22,6 +22,12 @@ class OAuth
         OAuth2\Autoloader::register();
         $this->storage = new OAuth2\Storage\Pdo($connect);
         $this->server = new OAuth2\Server($this->storage);
+        $scope = new OAuth2\Scope(array('supported_scopes' => array(
+                'openid',
+                'twoscope',
+                'redscope',
+                'bluescope')));
+        $this->server->setScopeUtil($scope);
         $this->server->addGrantType(new OAuth2\GrantType\ClientCredentials($this->
             storage));
 
@@ -72,11 +78,11 @@ class OAuth
         $this->server->handleAuthorizeRequest($request, $response, $authorized);
         //if ($is_authorized) {
         // this is only here so that you get to see your code in the cURL request. Otherwise, we'd redirect back to the client
-        if($authorized)
-        {
-        $code = substr($response->getHttpHeader('Location'), strpos($response->
-            getHttpHeader('Location'), 'code=') + 5, 40);
-        exit("SUCCESS! Authorization Code: $code");
+        if ($authorized) {
+            //exit();
+            //$code = substr($response->getHttpHeader('Location'), strpos($response->
+            //            getHttpHeader('Location'), 'code=') + 5, 40);
+            //exit("SUCCESS! Authorization Code: $code");
         }
         // }
         $response->send();

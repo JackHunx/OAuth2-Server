@@ -999,3 +999,320 @@ Stack trace:
 #5 {main}
 REQUEST_URI=/OAuth2-for-Yii/index.php/oauth2
 ---
+2013/08/07 22:01:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "taken".' in D:\srv\www\framework\web\CController.php:483
+Stack trace:
+#0 D:\srv\www\framework\web\CController.php(270): CController->missingAction('taken')
+#1 D:\srv\www\framework\web\CWebApplication.php(282): CController->run('taken')
+#2 D:\srv\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/taken')
+#3 D:\srv\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\srv\www\OAuth2-for-Yii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/OAuth2-for-Yii/index.php/oauth2/taken?grant_type=authorization_code&code=1083928674bc118b3b44a0588832447bbdf2fcba
+---
+2013/08/08 05:18:56 [error] [php] Undefined variable: supportedScopes (D:\www\OAuth2-for-Yii\protected\extensions\oauth2\OAuth.php:26)
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-for-Yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/OAuth2-for-Yii/index.php/oauth2/authorize?client_id=testclient&redirect_uri=http%3A%2F%2Flocalhost%2Fphp-openid-connect-client-master%2Fpublic%2Findex.php&response_type=code&scope=basic&state=4ac8a64444076b5a4300fcb659173217bb543f89141fbea59ca5e916d5445178
+in D:\www\OAuth2-for-Yii\protected\extensions\oauth2\OAuth.php (26)
+in D:\www\OAuth2-for-Yii\protected\controllers\Oauth2Controller.php (8)
+in D:\www\OAuth2-for-Yii\index.php (13)
+2013/08/08 05:19:11 [error] [php] Undefined variable: server (D:\www\OAuth2-for-Yii\protected\extensions\oauth2\OAuth.php:29)
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-for-Yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/OAuth2-for-Yii/index.php/oauth2/authorize?client_id=testclient&redirect_uri=http%3A%2F%2Flocalhost%2Fphp-openid-connect-client-master%2Fpublic%2Findex.php&response_type=code&scope=basic&state=4ac8a64444076b5a4300fcb659173217bb543f89141fbea59ca5e916d5445178
+in D:\www\OAuth2-for-Yii\protected\extensions\oauth2\OAuth.php (29)
+in D:\www\OAuth2-for-Yii\protected\controllers\Oauth2Controller.php (8)
+in D:\www\OAuth2-for-Yii\index.php (13)
+2013/08/08 08:22:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oauth".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-for-Yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-for-Yii/oauth
+---
+2013/08/08 08:22:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\www\framework\web\CController.php:483
+Stack trace:
+#0 D:\www\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\www\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2')
+#3 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\www\OAuth2-for-Yii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/OAuth2-for-Yii/oauth2
+---
+2013/08/08 08:22:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\www\framework\web\CController.php:483
+Stack trace:
+#0 D:\www\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\www\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2')
+#3 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\www\OAuth2-for-Yii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/OAuth2-for-Yii/oauth2
+---
+2013/08/08 08:22:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\www\framework\web\CController.php:483
+Stack trace:
+#0 D:\www\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\www\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2')
+#3 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\www\OAuth2-for-Yii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/OAuth2-for-Yii/index.php/oauth2
+---
+2013/08/08 08:22:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\www\framework\web\CController.php:483
+Stack trace:
+#0 D:\www\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\www\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2')
+#3 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\www\OAuth2-for-Yii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/OAuth2-for-Yii/index.php/oauth2
+---
+2013/08/08 08:23:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "register".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('register')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-for-Yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-for-Yii/index.php/register
+---
+2013/08/08 08:46:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oauth2/token".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/token')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-for-Yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-for-Yii/oauth2/token
+---
+2013/08/08 08:46:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oauth2/token".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/token')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-for-Yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-for-Yii/oauth2/token
+---
+2013/08/08 08:46:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oauth2/token".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/token')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-for-Yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-for-Yii/oauth2/token
+---
+2013/08/08 08:46:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oauth2/token".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/token')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-for-Yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-for-Yii/oauth2/token
+---
+2013/08/08 08:46:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oauth2/token".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/token')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-for-Yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-for-Yii/oauth2/token
+---
+2013/08/08 08:46:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oauth2/token".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/token')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-for-Yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-for-Yii/oauth2/token
+---
+2013/08/08 08:46:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oauth2/token".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/token')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-for-Yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-for-Yii/oauth2/token
+---
+2013/08/08 08:46:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oauth2/token".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/token')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-for-Yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-for-Yii/oauth2/token
+---
+2013/08/08 08:46:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oauth2/token".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/token')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-for-Yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-for-Yii/oauth2/token
+---
+2013/08/08 08:46:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oauth2/token".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/token')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-for-Yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-for-Yii/oauth2/token
+---
+2013/08/08 08:51:04 [error] [exception.CException] exception 'CException' with message 'Property "AuthorizeController.oauth" is not defined.' in D:\www\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\www\OAuth2-for-Yii\protected\modules\oauth2\Oauth2Module.php(23): CComponent->__set('oauth', Object(OAuth))
+#1 D:\www\framework\web\CController.php(263): Oauth2Module->beforeControllerAction(Object(AuthorizeController), Object(CInlineAction))
+#2 D:\www\framework\web\CWebApplication.php(282): CController->run('')
+#3 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/authoriz...')
+#4 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 D:\www\OAuth2-for-Yii\index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/OAuth2-for-Yii/oauth2/authorize
+---
+2013/08/08 08:51:32 [error] [exception.CException] exception 'CException' with message 'Property "AuthorizeController.oauth" is not defined.' in D:\www\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\www\OAuth2-for-Yii\protected\modules\oauth2\Oauth2Module.php(23): CComponent->__set('oauth', Object(OAuth))
+#1 D:\www\framework\web\CController.php(263): Oauth2Module->beforeControllerAction(Object(AuthorizeController), Object(CInlineAction))
+#2 D:\www\framework\web\CWebApplication.php(282): CController->run('')
+#3 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/authoriz...')
+#4 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 D:\www\OAuth2-for-Yii\index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/OAuth2-for-Yii/oauth2/authorize
+---
+2013/08/08 08:51:42 [error] [exception.CException] exception 'CException' with message 'Property "AuthorizeController.oauth" is not defined.' in D:\www\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\www\OAuth2-for-Yii\protected\modules\oauth2\Oauth2Module.php(23): CComponent->__set('oauth', Object(OAuth))
+#1 D:\www\framework\web\CController.php(263): Oauth2Module->beforeControllerAction(Object(AuthorizeController), Object(CInlineAction))
+#2 D:\www\framework\web\CWebApplication.php(282): CController->run('')
+#3 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/authoriz...')
+#4 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 D:\www\OAuth2-for-Yii\index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/OAuth2-for-Yii/oauth2/authorize
+---
+2013/08/08 08:51:42 [error] [exception.CException] exception 'CException' with message 'Property "AuthorizeController.oauth" is not defined.' in D:\www\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\www\OAuth2-for-Yii\protected\modules\oauth2\Oauth2Module.php(23): CComponent->__set('oauth', Object(OAuth))
+#1 D:\www\framework\web\CController.php(263): Oauth2Module->beforeControllerAction(Object(AuthorizeController), Object(CInlineAction))
+#2 D:\www\framework\web\CWebApplication.php(282): CController->run('')
+#3 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/authoriz...')
+#4 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 D:\www\OAuth2-for-Yii\index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/OAuth2-for-Yii/oauth2/authorize
+---
+2013/08/08 08:51:43 [error] [exception.CException] exception 'CException' with message 'Property "AuthorizeController.oauth" is not defined.' in D:\www\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\www\OAuth2-for-Yii\protected\modules\oauth2\Oauth2Module.php(23): CComponent->__set('oauth', Object(OAuth))
+#1 D:\www\framework\web\CController.php(263): Oauth2Module->beforeControllerAction(Object(AuthorizeController), Object(CInlineAction))
+#2 D:\www\framework\web\CWebApplication.php(282): CController->run('')
+#3 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/authoriz...')
+#4 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 D:\www\OAuth2-for-Yii\index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/OAuth2-for-Yii/oauth2/authorize
+---
+2013/08/08 08:51:43 [error] [exception.CException] exception 'CException' with message 'Property "AuthorizeController.oauth" is not defined.' in D:\www\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\www\OAuth2-for-Yii\protected\modules\oauth2\Oauth2Module.php(23): CComponent->__set('oauth', Object(OAuth))
+#1 D:\www\framework\web\CController.php(263): Oauth2Module->beforeControllerAction(Object(AuthorizeController), Object(CInlineAction))
+#2 D:\www\framework\web\CWebApplication.php(282): CController->run('')
+#3 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/authoriz...')
+#4 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 D:\www\OAuth2-for-Yii\index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/OAuth2-for-Yii/oauth2/authorize
+---
+2013/08/08 08:51:43 [error] [exception.CException] exception 'CException' with message 'Property "AuthorizeController.oauth" is not defined.' in D:\www\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\www\OAuth2-for-Yii\protected\modules\oauth2\Oauth2Module.php(23): CComponent->__set('oauth', Object(OAuth))
+#1 D:\www\framework\web\CController.php(263): Oauth2Module->beforeControllerAction(Object(AuthorizeController), Object(CInlineAction))
+#2 D:\www\framework\web\CWebApplication.php(282): CController->run('')
+#3 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/authoriz...')
+#4 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 D:\www\OAuth2-for-Yii\index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/OAuth2-for-Yii/oauth2/authorize
+---
+2013/08/08 08:51:43 [error] [exception.CException] exception 'CException' with message 'Property "AuthorizeController.oauth" is not defined.' in D:\www\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\www\OAuth2-for-Yii\protected\modules\oauth2\Oauth2Module.php(23): CComponent->__set('oauth', Object(OAuth))
+#1 D:\www\framework\web\CController.php(263): Oauth2Module->beforeControllerAction(Object(AuthorizeController), Object(CInlineAction))
+#2 D:\www\framework\web\CWebApplication.php(282): CController->run('')
+#3 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/authoriz...')
+#4 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 D:\www\OAuth2-for-Yii\index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/OAuth2-for-Yii/oauth2/authorize
+---
+2013/08/08 08:51:43 [error] [exception.CException] exception 'CException' with message 'Property "AuthorizeController.oauth" is not defined.' in D:\www\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\www\OAuth2-for-Yii\protected\modules\oauth2\Oauth2Module.php(23): CComponent->__set('oauth', Object(OAuth))
+#1 D:\www\framework\web\CController.php(263): Oauth2Module->beforeControllerAction(Object(AuthorizeController), Object(CInlineAction))
+#2 D:\www\framework\web\CWebApplication.php(282): CController->run('')
+#3 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/authoriz...')
+#4 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 D:\www\OAuth2-for-Yii\index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/OAuth2-for-Yii/oauth2/authorize
+---
+2013/08/08 08:51:43 [error] [exception.CException] exception 'CException' with message 'Property "AuthorizeController.oauth" is not defined.' in D:\www\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\www\OAuth2-for-Yii\protected\modules\oauth2\Oauth2Module.php(23): CComponent->__set('oauth', Object(OAuth))
+#1 D:\www\framework\web\CController.php(263): Oauth2Module->beforeControllerAction(Object(AuthorizeController), Object(CInlineAction))
+#2 D:\www\framework\web\CWebApplication.php(282): CController->run('')
+#3 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/authoriz...')
+#4 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 D:\www\OAuth2-for-Yii\index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/OAuth2-for-Yii/oauth2/authorize
+---
+2013/08/08 08:51:44 [error] [exception.CException] exception 'CException' with message 'Property "AuthorizeController.oauth" is not defined.' in D:\www\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\www\OAuth2-for-Yii\protected\modules\oauth2\Oauth2Module.php(23): CComponent->__set('oauth', Object(OAuth))
+#1 D:\www\framework\web\CController.php(263): Oauth2Module->beforeControllerAction(Object(AuthorizeController), Object(CInlineAction))
+#2 D:\www\framework\web\CWebApplication.php(282): CController->run('')
+#3 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/authoriz...')
+#4 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 D:\www\OAuth2-for-Yii\index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/OAuth2-for-Yii/oauth2/authorize
+---
+2013/08/08 09:01:05 [error] [exception.CException] exception 'CException' with message 'TokenController and its behaviors do not have a method or closure named "setOauth".' in D:\www\framework\base\CComponent.php:265
+Stack trace:
+#0 D:\www\OAuth2-for-Yii\protected\modules\oauth2\Oauth2Module.php(23): CComponent->__call('setOauth', Array)
+#1 D:\www\OAuth2-for-Yii\protected\modules\oauth2\Oauth2Module.php(23): TokenController->setOauth(Object(OAuth))
+#2 D:\www\framework\web\CController.php(263): Oauth2Module->beforeControllerAction(Object(TokenController), Object(CInlineAction))
+#3 D:\www\framework\web\CWebApplication.php(282): CController->run('')
+#4 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/token')
+#5 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 D:\www\OAuth2-for-Yii\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/OAuth2-for-Yii/index.php/oauth2/token
+HTTP_REFERER=http://localhost/OAuth2-for-Yii/index.php/gii/controller
+---
+2013/08/08 09:01:30 [error] [php] Undefined property: OAuth::$token (D:\www\OAuth2-for-Yii\protected\modules\oauth2\controllers\TokenController.php:8)
+Stack trace:
+#0 D:\www\framework\web\CController.php(286): TokenController->runAction()
+#1 D:\www\framework\web\CController.php(265): TokenController->runActionWithFilters()
+#2 D:\www\framework\web\CWebApplication.php(282): TokenController->run()
+#3 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 D:\www\OAuth2-for-Yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/OAuth2-for-Yii/index.php/oauth2/token
+in D:\www\OAuth2-for-Yii\protected\modules\oauth2\controllers\TokenController.php (8)
+in D:\www\OAuth2-for-Yii\index.php (13)
+2013/08/08 09:18:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-for-Yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-for-Yii/
+---

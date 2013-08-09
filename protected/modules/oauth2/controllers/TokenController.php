@@ -1,22 +1,21 @@
 <?php
 
-class Oauth2Controller extends Controller
+class TokenController extends Controller
 {
-    private $oauth;
-    public function init()
+	private $oauth;
+    public function actionIndex()
     {
-        $this->oauth = new OAuth(Yii::app()->params['pdo']);
+        $this->oauth->token();
     }
-	public function actionToken()
-	{
-		
-		$this->oauth->token();
-	}
-    public function actionAuthorize()
+
+    public function setOauth($oauth)
     {
-        $this->oauth->authorize(true);
+        if (is_object($oauth)) {
+            $this->oauth=$oauth;
+        }else{
+            throw new CException('param is not an object ');
+        }
     }
-    
 	// Uncomment the following methods and override them if needed
 	/*
 	public function filters()
