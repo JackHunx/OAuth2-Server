@@ -54,9 +54,18 @@ class OauthController extends Controller
     {
         //if login or not
         if (Yii::app()->user->isGuest) {
-            if(isset($_POST['LoginForm']))
-            {
-                
+            if (isset($_POST['LoginForm'])) {
+                $model = new LoginForm;
+
+                // collect user input data
+                if (isset($_POST['LoginForm'])) {
+                    //print_r($_POST['LoginForm']);
+                    //          exit();
+                    $model->attributes = $_POST['LoginForm'];
+                    // validate user input and redirect to the previous page if valid
+                    if ($model->validate() && $model->login())
+                        return true;
+                }
             }
             $this->renderPartial($this->loginTemplate);
             Yii::app()->end();
@@ -80,6 +89,6 @@ class OauthController extends Controller
      */
     protected function getUserInfo()
     {
-        
+
     }
 }
