@@ -2,24 +2,30 @@
 
 class OauthController extends Controller
 {
-    public $defaultAction='authorize';
-    private $loginUrl;
+    /**
+     * default action 
+     */
+    public $defaultAction = 'authorize';
+    /**
+     * the defalut login template file path 
+     */
+    public $loginTemplate = '/default/login';
     //init
     public function init()
     {
         //parent::init();
-//        Yii::app()->setComponents(array(
-//            'errorHandler' => array(
-//                'class' => 'CErrorHandler',
-//                'errorAction' => $this->getId() . '/default/error',
-//                ),
-//            'user' => array(
-//                'class' => 'CWebUser',
-//                'stateKeyPrefix' => 'gii',
-//                'loginUrl' => Yii::app()->createUrl($this->getId() . '/login'),
-//                ),
-//            'widgetFactory' => array('class' => 'CWidgetFactory', 'widgets' => array())), false);
-//       Yii::app()->user->loginRequired();
+        //        Yii::app()->setComponents(array(
+        //            'errorHandler' => array(
+        //                'class' => 'CErrorHandler',
+        //                'errorAction' => $this->getId() . '/default/error',
+        //                ),
+        //            'user' => array(
+        //                'class' => 'CWebUser',
+        //                'stateKeyPrefix' => 'gii',
+        //                'loginUrl' => Yii::app()->createUrl($this->getId() . '/login'),
+        //                ),
+        //            'widgetFactory' => array('class' => 'CWidgetFactory', 'widgets' => array())), false);
+        //       Yii::app()->user->loginRequired();
     }
     //
     protected function beforeAction($action)
@@ -34,20 +40,55 @@ class OauthController extends Controller
     }
     /**
      * authorize 
-     * @return boolen true or false
+     * 
      */
     public function actionAuthorize()
     {
-
+        //$authorize = $this->login();
+        $this->getStorage()->authorize($this->login(), $this->getUserId());
     }
     /**
-     * set loginUrl
-     * 
-     * @param string $loginUrl where the login template 
+     * @return boolen true or false
      */
-     protected function setLoginUrl($loginUrl=null)
-     {
-        //$this->loginUrl = $loginUrl == null ? Yii::app()
-     }
-     //protected function login
+    protected function login()
+    {
+        //if login or not
+        if (Yii::app()->user->isGuest) {
+            if (isset($_POST['LoginForm'])) {
+                $model = new LoginForm;
+
+                // collect user input data
+                if (isset($_POST['LoginForm'])) {
+                    //print_r($_POST['LoginForm']);
+                    //          exit();
+                    $model->attributes = $_POST['LoginForm'];
+                    // validate user input and redirect to the previous page if valid
+                    if ($model->validate() && $model->login())
+                        return true;
+                }
+            }
+            $this->renderPartial($this->loginTemplate);
+            Yii::app()->end();
+        } else {
+            //not a guest , login with this logined user or login with a nother user
+            return true;
+        }
+
+
+        //return true;
+    }
+    /**
+     * @return mixed null or $user_id
+     */
+    protected function getUserId()
+    {
+        return Yii::app()->user->id == null ? null : Yii::app()->user->id;
+    }
+    /**
+     * get user info 
+     */
+    protected function getUserInfo()
+    {
+
+    }
 }

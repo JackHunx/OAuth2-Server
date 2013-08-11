@@ -3,6 +3,7 @@
 class TokenController extends OauthController
 {
 	//private $oauth;
+    public $defaultAction = "index";
     public function actionIndex()
     {
         $this->getStorage()->token();

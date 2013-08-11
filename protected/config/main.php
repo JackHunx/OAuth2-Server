@@ -16,7 +16,7 @@ return array(
     'import' => array(
         'application.models.*',
         'application.components.*',
-        'application.extensions.oauth2.*',
+        //'application.extensions.oauth2.*',
         ),
 
     'modules' => array(
@@ -28,7 +28,10 @@ return array(
             // If removed, Gii defaults to localhost only. Edit carefully to taste.
             'ipFilters' => array('127.0.0.1', '::1'),
             ),
-        'oauth2',
+        /**
+         * password is in user table by method md5
+         */
+        'oauth2' => array('userTable' => 'zx_user', ),
         'user',
 
         ),
@@ -47,19 +50,19 @@ return array(
                 '<controller:\w+>/<action:\w+>' => '<controller>/<action>',
                 ),
             ),
-
-        'db' => array('connectionString' => 'sqlite:' . dirname(__file__) .
-                '/../data/testdrive.db', ),
-        // uncomment the following to use a MySQL database
         /*
-        'db'=>array(
-        'connectionString' => 'mysql:host=localhost;dbname=testdrive',
-        'emulatePrepare' => true,
-        'username' => 'root',
-        'password' => '',
-        'charset' => 'utf8',
-        ),
+        'db' => array('connectionString' => 'sqlite:' . dirname(__file__) .
+        '/../data/testdrive.db', ),
+        // uncomment the following to use a MySQL database
         */
+        'db' => array(
+            'connectionString' => 'mysql:host=localhost;dbname=newzx',
+            'emulatePrepare' => true,
+            'username' => 'root',
+            'password' => '',
+            'charset' => 'utf8',
+            ),
+
         'errorHandler' => array( // use 'site/error' action to display errors
                 'errorAction' => 'site/error', ),
         'log' => array(
