@@ -44,8 +44,8 @@ class OauthController extends Controller
      */
     public function actionAuthorize()
     {
-        $authorize = $this->login();
-        $this->getStorage()->authorize($authorize, $this->getUserId());
+        //$authorize = $this->login();
+        $this->getStorage()->authorize($this->login(), $this->getUserId());
     }
     /**
      * @return boolen true or false
