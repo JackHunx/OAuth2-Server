@@ -1,9 +1,9 @@
 <?php
 
-class DefaultController extends Controller
+class DefaultController extends ResourceController
 {
 	public function actionIndex()
 	{
-		$this->render('index');
+	   echo json_encode(array('user_id'=>$this->getUserId()));
 	}
 }

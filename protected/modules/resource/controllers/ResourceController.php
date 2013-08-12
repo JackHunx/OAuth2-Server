@@ -2,23 +2,26 @@
 
 class ResourceController extends Controller
 {
-	//default action 
-    public $defaultAction='getUser';
-    //init 
+    private $userid;
+    //default action
+    //public $defaultAction='getUser';
+    //init
     public function init()
     {
         //init
+        $this->userid = $this->getStorage()->verifyResourceRequest();
+        if ($this->userid == false) {
+            echo json_encode(array('status' => '0', 'error' => 'verify access_token fail'));
+            exit();
+        }
     }
     //get storage
     protected function getStorage()
     {
         return new OAuth(Yii::app()->params['pdo']);
     }
-    /**
-     * return login user user info like user id user name ...
-     */
-    public function actionGetUser()
+    public function getUserId()
     {
-        $this->getStorage()->resource();
+        return $this->userid;
     }
 }

@@ -92,19 +92,19 @@ class OAuth
     /**
      * resource request verify 
      * 
-     * @return mixed if false return the retun_uri by query error else 
-     * return user_id by this access token
+     * @return mixed  false or user_id;
      */
-    public function resource()
+    public function verifyResourceRequest()
     {
         //print_r(OAuth2\Request::createFromGlobals());
 //        exit();
         if (!$this->server->verifyResourceRequest(OAuth2\Request::createFromGlobals())) {
-            echo json_encode(array('status'=>'0','message'=>'Verify access_token fail'));//$this->server->getResponse()->send();
-            die;
+           //$this->server->getResponse()->send();
+           return false;
+           // die;
         }
         $token = $this->server->getAccessTokenData(OAuth2\Request::createFromGlobals());
-        echo json_encode(array('status'=>'1','user_id'=>$token['user_id']));
+        return $token['user_id'];
         //echo json_encode(array('success' => true, 'user_id' =>$token['user_id'] ));
         //return $token['user_id'];
     }

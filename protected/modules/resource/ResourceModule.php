@@ -11,7 +11,7 @@ class ResourceModule extends CWebModule
 		$this->setImport(array(
 			'resource.models.*',
 			'resource.components.*',
-            'resource.controlles.ResourceController'
+            'resource.controllers.ResourceController'
 		));
 	}
 
