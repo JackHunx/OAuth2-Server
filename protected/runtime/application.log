@@ -2577,3 +2577,56 @@ Stack trace:
 #12 {main}
 REQUEST_URI=/OAuth2-for-Yii/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=cca86d2afeef958e&scope=openid
 ---
+2013/08/12 05:14:26 [error] [php] include(OAuth.php): failed to open stream: No such file or directory (D:\www\framework\YiiBase.php:421)
+Stack trace:
+#0 D:\www\OAuth2-Server\protected\modules\oauth2\controllers\OauthController.php(39): spl_autoload_call()
+#1 D:\www\OAuth2-Server\protected\modules\oauth2\controllers\OauthController.php(48): AuthorizeController->getStorage()
+#2 D:\www\OAuth2-Server\protected\modules\oauth2\controllers\AuthorizeController.php(10): AuthorizeController->actionAuthorize()
+#3 D:\www\framework\web\actions\CInlineAction.php(49): AuthorizeController->actionIndex()
+#4 D:\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\www\framework\web\CController.php(286): AuthorizeController->runAction()
+#6 D:\www\framework\web\CController.php(265): AuthorizeController->runActionWithFilters()
+#7 D:\www\framework\web\CWebApplication.php(282): AuthorizeController->run()
+#8 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\www\OAuth2-Server\index.php(13): CWebApplication->run()
+REQUEST_URI=/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=dca32bae00f52b63&scope=openid
+in D:\www\OAuth2-Server\protected\modules\oauth2\controllers\OauthController.php (39)
+in D:\www\OAuth2-Server\protected\modules\oauth2\controllers\OauthController.php (48)
+in D:\www\OAuth2-Server\protected\modules\oauth2\controllers\AuthorizeController.php (10)
+2013/08/12 05:16:04 [error] [php] include(OauthController.php): failed to open stream: No such file or directory (D:\www\framework\YiiBase.php:421)
+Stack trace:
+#0 D:\www\OAuth2-Server\protected\modules\oauth2\controllers\AuthorizeController.php(4): spl_autoload_call()
+#1 D:\www\framework\web\CWebApplication.php(354): require()
+#2 D:\www\framework\web\CWebApplication.php(338): CWebApplication->createController()
+#3 D:\www\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#4 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 D:\www\OAuth2-Server\index.php(13): CWebApplication->run()
+REQUEST_URI=/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=dca32bae00f52b63&scope=openid
+in D:\www\OAuth2-Server\protected\modules\oauth2\controllers\AuthorizeController.php (4)
+in D:\www\OAuth2-Server\index.php (13)
+2013/08/12 05:16:04 [error] [php] include(OauthController.php): failed to open stream: No such file or directory (D:\www\framework\YiiBase.php:421)
+Stack trace:
+#0 D:\www\OAuth2-Server\protected\modules\oauth2\controllers\AuthorizeController.php(4): spl_autoload_call()
+#1 D:\www\framework\web\CWebApplication.php(354): require()
+#2 D:\www\framework\web\CWebApplication.php(338): CWebApplication->createController()
+#3 D:\www\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#4 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 D:\www\OAuth2-Server\index.php(13): CWebApplication->run()
+REQUEST_URI=/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=dca32bae00f52b63&scope=openid
+in D:\www\OAuth2-Server\protected\modules\oauth2\controllers\AuthorizeController.php (4)
+in D:\www\OAuth2-Server\index.php (13)
+2013/08/12 05:16:45 [error] [php] include(D:\www\OAuth2-Server\protected\modules\oauth2\controller\OauthController.php): failed to open stream: No such file or directory (D:\www\framework\YiiBase.php:395)
+Stack trace:
+#0 D:\www\OAuth2-Server\protected\modules\oauth2\controllers\AuthorizeController.php(4): spl_autoload_call()
+#1 D:\www\framework\web\CWebApplication.php(354): require()
+#2 D:\www\framework\web\CWebApplication.php(338): CWebApplication->createController()
+#3 D:\www\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#4 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 D:\www\OAuth2-Server\index.php(13): CWebApplication->run()
+REQUEST_URI=/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=dca32bae00f52b63&scope=openid
+in D:\www\OAuth2-Server\protected\modules\oauth2\controllers\AuthorizeController.php (4)
+in D:\www\OAuth2-Server\index.php (13)
