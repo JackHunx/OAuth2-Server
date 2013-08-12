@@ -53,18 +53,18 @@ class OAuth
      * @param bool $authorized true or false
      * @return mixed access code or return to redirect_uri
      */
-    public function authorize($authorized = false,$user_id=null)
+    public function authorize($authorized = false, $user_id = null)
     {
         $request = OAuth2\Request::createFromGlobals();
         $response = new OAuth2\Response();
-        
+
         // validate the authorize request
         if (!$this->server->validateAuthorizeRequest($request, $response)) {
             //exit();
             $response->send();
             die;
         }
-       
+
         // display an authorization form
         //if (empty($_POST)) {
         //            exit('
@@ -77,16 +77,35 @@ class OAuth
 
         // print the authorization code if the user has authorized your client
         //$is_authorized = ($_POST['authorized'] === 'yes');
-        $this->server->handleAuthorizeRequest($request, $response, $authorized,$user_id);
+        $this->server->handleAuthorizeRequest($request, $response, $authorized, $user_id);
         //if ($is_authorized) {
         // this is only here so that you get to see your code in the cURL request. Otherwise, we'd redirect back to the client
         if ($authorized) {
             //exit();
             //$code = substr($response->getHttpHeader('Location'), strpos($response->
-//                       getHttpHeader('Location'), 'code=') + 5, 40);
-//            exit("SUCCESS! Authorization Code: $code");
+            //                       getHttpHeader('Location'), 'code=') + 5, 40);
+            //            exit("SUCCESS! Authorization Code: $code");
         }
         // }
         $response->send();
+    }
+    /**
+     * resource request verify 
+     * 
+     * @return mixed if false return the retun_uri by query error else 
+     * return user_id by this access token
+     */
+    public function resource()
+    {
+        //print_r(OAuth2\Request::createFromGlobals());
+//        exit();
+        if (!$this->server->verifyResourceRequest(OAuth2\Request::createFromGlobals())) {
+            echo json_encode(array('status'=>'0','message'=>'Verify access_token fail'));//$this->server->getResponse()->send();
+            die;
+        }
+        $token = $this->server->getAccessTokenData(OAuth2\Request::createFromGlobals());
+        echo json_encode(array('status'=>'1','user_id'=>$token['user_id']));
+        //echo json_encode(array('success' => true, 'user_id' =>$token['user_id'] ));
+        //return $token['user_id'];
     }
 }
