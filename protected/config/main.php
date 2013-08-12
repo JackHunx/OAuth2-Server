@@ -16,7 +16,7 @@ return array(
     'import' => array(
         'application.models.*',
         'application.components.*',
-        //'application.extensions.oauth2.*',
+        'application.extensions.oauth2.*',
         ),
 
     'modules' => array(
@@ -32,7 +32,7 @@ return array(
          * password is in user table by method md5
          */
         'oauth2' => array('userTable' => 'zx_user', ),
-        'user',
+        'resource',
 
         ),
 
