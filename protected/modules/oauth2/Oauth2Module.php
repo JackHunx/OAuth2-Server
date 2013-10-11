@@ -8,7 +8,7 @@ class Oauth2Module extends CWebModule
     private $_test = "\" this is just a test\"";
     //Public attributes
     /* @var $userid String The username column of the users table */
-    public $userid = "user_id";
+    public $userid = "id";
     /* @var $username String The username column of the users table */
     public $username = "username";
     /* @var $password String The password column of the users table */
@@ -35,12 +35,12 @@ class Oauth2Module extends CWebModule
         ),
         'oauthdb' => array(
                 'class' => 'CDbConnection',
-                'connectionString' => 'mysql:host=localhost;dbname=newzx',
+                'connectionString' => 'mysql:host=localhost;dbname=user',
                 'emulatePrepare' => true,
                 'username' => 'root',
                 'password' => '',
                 'charset' => 'utf8',
-                'tablePrefix' => 'zx_',
+                'tablePrefix' => 'ets_',
                 ), ));
     }
 

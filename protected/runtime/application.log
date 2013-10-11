@@ -3923,3 +3923,1689 @@ Stack trace:
 REQUEST_URI=/OAuth2-Server/index.php/resource
 in D:\www\OAuth2-Server\protected\modules\resource\controllers\DefaultController.php (4)
 in D:\www\OAuth2-Server\index.php (13)
+2013/09/09 14:36:56 [error] [php] include(LoginForm.php): failed to open stream: No such file or directory (D:\www\framework\YiiBase.php:421)
+Stack trace:
+#0 D:\www\OAuth2-Server\protected\controllers\SiteController.php(81): spl_autoload_call()
+#1 D:\www\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#2 D:\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\www\framework\web\CController.php(286): SiteController->runAction()
+#4 D:\www\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#5 D:\www\framework\web\CWebApplication.php(282): SiteController->run()
+#6 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 D:\www\OAuth2-Server\index.php(13): CWebApplication->run()
+REQUEST_URI=/OAuth2-Server/index.php/site/login
+in D:\www\OAuth2-Server\protected\controllers\SiteController.php (81)
+in D:\www\OAuth2-Server\index.php (13)
+2013/09/09 14:37:03 [error] [php] include(LoginForm.php): failed to open stream: No such file or directory (D:\www\framework\YiiBase.php:421)
+Stack trace:
+#0 D:\www\OAuth2-Server\protected\controllers\SiteController.php(81): spl_autoload_call()
+#1 D:\www\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#2 D:\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\www\framework\web\CController.php(286): SiteController->runAction()
+#4 D:\www\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#5 D:\www\framework\web\CWebApplication.php(282): SiteController->run()
+#6 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 D:\www\OAuth2-Server\index.php(13): CWebApplication->run()
+REQUEST_URI=/OAuth2-Server/index.php/site/login
+in D:\www\OAuth2-Server\protected\controllers\SiteController.php (81)
+in D:\www\OAuth2-Server\index.php (13)
+2013/09/10 17:00:37 [error] [php] include(LoginForm.php): failed to open stream: No such file or directory (D:\www\framework\YiiBase.php:421)
+Stack trace:
+#0 D:\www\OAuth2-Server\protected\controllers\SiteController.php(81): spl_autoload_call()
+#1 D:\www\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#2 D:\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\www\framework\web\CController.php(286): SiteController->runAction()
+#4 D:\www\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#5 D:\www\framework\web\CWebApplication.php(282): SiteController->run()
+#6 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 D:\www\OAuth2-Server\index.php(13): CWebApplication->run()
+REQUEST_URI=/OAuth2-Server/index.php/site/login
+in D:\www\OAuth2-Server\protected\controllers\SiteController.php (81)
+in D:\www\OAuth2-Server\index.php (13)
+2013/09/24 11:10:48 [error] [php] include(LoginForm.php): failed to open stream: No such file or directory (D:\www\framework\YiiBase.php:421)
+Stack trace:
+#0 D:\www\OAuth2-Server\protected\controllers\SiteController.php(81): spl_autoload_call()
+#1 D:\www\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#2 D:\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\www\framework\web\CController.php(286): SiteController->runAction()
+#4 D:\www\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#5 D:\www\framework\web\CWebApplication.php(282): SiteController->run()
+#6 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 D:\www\OAuth2-Server\index.php(13): CWebApplication->run()
+REQUEST_URI=/OAuth2-server/index.php/site/login
+in D:\www\OAuth2-Server\protected\controllers\SiteController.php (81)
+in D:\www\OAuth2-Server\index.php (13)
+2013/09/24 11:10:52 [error] [php] include(LoginForm.php): failed to open stream: No such file or directory (D:\www\framework\YiiBase.php:421)
+Stack trace:
+#0 D:\www\OAuth2-Server\protected\controllers\SiteController.php(81): spl_autoload_call()
+#1 D:\www\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#2 D:\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\www\framework\web\CController.php(286): SiteController->runAction()
+#4 D:\www\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#5 D:\www\framework\web\CWebApplication.php(282): SiteController->run()
+#6 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 D:\www\OAuth2-Server\index.php(13): CWebApplication->run()
+REQUEST_URI=/OAuth2-server/index.php/site/login
+in D:\www\OAuth2-Server\protected\controllers\SiteController.php (81)
+in D:\www\OAuth2-Server\index.php (13)
+2013/09/24 11:10:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oauth2/js/Validform_v5.3.2_min.js".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/js/Valid...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/index.php/oauth2/js/Validform_v5.3.2_min.js
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=06b78fec1ebb362b&scope=openid
+---
+2013/09/24 11:10:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oauth2/css/login.css".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/css/logi...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/index.php/oauth2/css/login.css
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=06b78fec1ebb362b&scope=openid
+---
+2013/09/24 11:10:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oauth2/js/jquery.SuperSlide.js".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/js/jquer...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/index.php/oauth2/js/jquery.SuperSlide.js
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=06b78fec1ebb362b&scope=openid
+---
+2013/09/24 11:10:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oauth2/js/jquery1.42.min.js".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/js/jquer...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/index.php/oauth2/js/jquery1.42.min.js
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=06b78fec1ebb362b&scope=openid
+---
+2013/09/24 11:20:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/login-btn.png".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/logi...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/css/images/login-btn.png
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=03c34eb3bc8a5224&scope=openid
+---
+2013/09/24 11:20:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/banner-shdow.png".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/bann...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/css/images/banner-shdow.png
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=03c34eb3bc8a5224&scope=openid
+---
+2013/09/24 11:20:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/login-btn.png".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/logi...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/css/images/login-btn.png
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=03c34eb3bc8a5224&scope=openid
+---
+2013/09/24 11:23:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/default_login/login.css".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('css/default_log...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/css/default_login/login.css
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=03c34eb3bc8a5224&scope=openid
+---
+2013/09/24 11:23:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/default_login/Validform_v5.3.2_min.js".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/default_logi...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/js/default_login/Validform_v5.3.2_min.js
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=03c34eb3bc8a5224&scope=openid
+---
+2013/09/24 11:23:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/default_login/jquery.SuperSlide.js".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/default_logi...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/js/default_login/jquery.SuperSlide.js
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=03c34eb3bc8a5224&scope=openid
+---
+2013/09/24 11:23:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/default_login/jquery1.42.min.js".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/default_logi...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/js/default_login/jquery1.42.min.js
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=03c34eb3bc8a5224&scope=openid
+---
+2013/09/24 11:24:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "style/defalut/js/jquery.SuperSlide.js".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('style/defalut/j...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/style/defalut/js/jquery.SuperSlide.js
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=03c34eb3bc8a5224&scope=openid
+---
+2013/09/24 11:24:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "style/defalut/js/jquery1.42.min.js".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('style/defalut/j...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/style/defalut/js/jquery1.42.min.js
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=03c34eb3bc8a5224&scope=openid
+---
+2013/09/24 11:24:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "style/defalut/js/Validform_v5.3.2_min.js".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('style/defalut/j...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/style/defalut/js/Validform_v5.3.2_min.js
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=03c34eb3bc8a5224&scope=openid
+---
+2013/09/24 11:24:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "style/defalut/js/jquery.SuperSlide.js".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('style/defalut/j...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/style/defalut/js/jquery.SuperSlide.js
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=03c34eb3bc8a5224&scope=openid
+---
+2013/09/24 11:24:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "style/defalut/js/jquery1.42.min.js".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('style/defalut/j...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/style/defalut/js/jquery1.42.min.js
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=03c34eb3bc8a5224&scope=openid
+---
+2013/09/24 11:24:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "style/defalut/js/Validform_v5.3.2_min.js".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('style/defalut/j...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/style/defalut/js/Validform_v5.3.2_min.js
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=03c34eb3bc8a5224&scope=openid
+---
+2013/09/24 11:24:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "style/defalut/js/jquery1.42.min.js".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('style/defalut/j...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/style/defalut/js/jquery1.42.min.js
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=03c34eb3bc8a5224&scope=openid
+---
+2013/09/24 11:24:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "style/defalut/js/Validform_v5.3.2_min.js".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('style/defalut/j...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/style/defalut/js/Validform_v5.3.2_min.js
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=03c34eb3bc8a5224&scope=openid
+---
+2013/09/24 11:24:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "style/defalut/js/jquery.SuperSlide.js".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('style/defalut/j...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/style/defalut/js/jquery.SuperSlide.js
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=03c34eb3bc8a5224&scope=openid
+---
+2013/09/24 11:24:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "style/defalut/js/jquery1.42.min.js".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('style/defalut/j...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/style/defalut/js/jquery1.42.min.js
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=03c34eb3bc8a5224&scope=openid
+---
+2013/09/24 11:24:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "style/defalut/js/jquery.SuperSlide.js".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('style/defalut/j...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/style/defalut/js/jquery.SuperSlide.js
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=03c34eb3bc8a5224&scope=openid
+---
+2013/09/24 11:24:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "style/defalut/js/Validform_v5.3.2_min.js".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('style/defalut/j...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/style/defalut/js/Validform_v5.3.2_min.js
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=03c34eb3bc8a5224&scope=openid
+---
+2013/09/24 11:24:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "style/defalut/js/jquery1.42.min.js".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('style/defalut/j...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/style/defalut/js/jquery1.42.min.js
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=03c34eb3bc8a5224&scope=openid
+---
+2013/09/24 11:24:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "style/defalut/js/Validform_v5.3.2_min.js".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('style/defalut/j...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/style/defalut/js/Validform_v5.3.2_min.js
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=03c34eb3bc8a5224&scope=openid
+---
+2013/09/24 11:24:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "style/defalut/js/jquery.SuperSlide.js".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('style/defalut/j...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/style/defalut/js/jquery.SuperSlide.js
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=03c34eb3bc8a5224&scope=openid
+---
+2013/09/24 11:24:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "style/defalut/js/jquery1.42.min.js".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('style/defalut/j...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/style/defalut/js/jquery1.42.min.js
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=03c34eb3bc8a5224&scope=openid
+---
+2013/09/24 11:24:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "style/defalut/js/Validform_v5.3.2_min.js".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('style/defalut/j...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/style/defalut/js/Validform_v5.3.2_min.js
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=03c34eb3bc8a5224&scope=openid
+---
+2013/09/24 11:24:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "style/defalut/js/jquery.SuperSlide.js".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('style/defalut/j...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/style/defalut/js/jquery.SuperSlide.js
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=03c34eb3bc8a5224&scope=openid
+---
+2013/09/24 11:57:57 [error] [php] include(LoginForm.php): failed to open stream: No such file or directory (D:\www\framework\YiiBase.php:421)
+Stack trace:
+#0 D:\www\OAuth2-Server\protected\controllers\SiteController.php(81): spl_autoload_call()
+#1 D:\www\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#2 D:\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\www\framework\web\CController.php(286): SiteController->runAction()
+#4 D:\www\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#5 D:\www\framework\web\CWebApplication.php(282): SiteController->run()
+#6 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 D:\www\OAuth2-Server\index.php(13): CWebApplication->run()
+REQUEST_URI=/OAuth2-Server/index.php/site/login
+in D:\www\OAuth2-Server\protected\controllers\SiteController.php (81)
+in D:\www\OAuth2-Server\index.php (13)
+2013/09/24 12:00:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oauth2/test".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/test')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/index.php/oauth2/test
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=fe561eebba499c28&scope=openid
+---
+2013/09/24 12:00:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oauth2/test".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/test')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/index.php/oauth2/test
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=fe561eebba499c28&scope=openid
+---
+2013/09/24 12:00:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oauth2/test".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/test')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/index.php/oauth2/test
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=fe561eebba499c28&scope=openid
+---
+2013/09/24 12:00:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oauth2/test".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/test')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/index.php/oauth2/test
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=fe561eebba499c28&scope=openid
+---
+2013/09/24 12:00:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oauth2/test".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/test')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/index.php/oauth2/test
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=fe561eebba499c28&scope=openid
+---
+2013/09/24 12:00:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oauth2/test".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/test')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/index.php/oauth2/test
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=fe561eebba499c28&scope=openid
+---
+2013/09/24 12:00:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oauth2/test".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/test')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/index.php/oauth2/test
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=fe561eebba499c28&scope=openid
+---
+2013/09/24 12:00:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oauth2/test".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/test')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/index.php/oauth2/test
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=fe561eebba499c28&scope=openid
+---
+2013/09/24 12:00:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oauth2/test".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/test')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/index.php/oauth2/test
+---
+2013/09/24 12:45:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oauth2/test".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/test')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/index.php/oauth2/test
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=fe561eebba499c28&scope=openid
+---
+2013/09/24 12:45:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oauth2/test".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/test')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/index.php/oauth2/test
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=fe561eebba499c28&scope=openid
+---
+2013/09/24 12:45:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oauth2/test".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/test')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/index.php/oauth2/test
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=fe561eebba499c28&scope=openid
+---
+2013/09/24 12:45:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oauth2/test".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/test')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/index.php/oauth2/test
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=fe561eebba499c28&scope=openid
+---
+2013/09/24 12:45:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oauth2/test".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/test')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/index.php/oauth2/test
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=fe561eebba499c28&scope=openid
+---
+2013/09/24 12:45:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oauth2/test".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/test')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/index.php/oauth2/test
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=fe561eebba499c28&scope=openid
+---
+2013/09/24 12:45:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oauth2/test".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/test')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/index.php/oauth2/test
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=fe561eebba499c28&scope=openid
+---
+2013/09/24 12:45:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oauth2/test".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/test')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/index.php/oauth2/test
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=fe561eebba499c28&scope=openid
+---
+2013/09/24 12:45:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oauth2/test".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/test')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/index.php/oauth2/test
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=fe561eebba499c28&scope=openid
+---
+2013/09/24 12:45:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oauth2/test".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/test')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/index.php/oauth2/test
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=fe561eebba499c28&scope=openid
+---
+2013/09/24 12:56:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oauth2/test".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/test')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/index.php/oauth2/test
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=fe561eebba499c28&scope=openid
+---
+2013/09/24 12:56:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oauth2/test".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/test')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/index.php/oauth2/test
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=fe561eebba499c28&scope=openid
+---
+2013/09/24 12:57:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oauth2/test".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/test')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/index.php/oauth2/test
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=fe561eebba499c28&scope=openid
+---
+2013/09/24 15:10:33 [error] [php] include(LoginForm.php): failed to open stream: No such file or directory (D:\www\framework\YiiBase.php:421)
+Stack trace:
+#0 D:\www\OAuth2-Server\protected\controllers\SiteController.php(81): spl_autoload_call()
+#1 D:\www\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#2 D:\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\www\framework\web\CController.php(286): SiteController->runAction()
+#4 D:\www\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#5 D:\www\framework\web\CWebApplication.php(282): SiteController->run()
+#6 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 D:\www\OAuth2-Server\index.php(13): CWebApplication->run()
+REQUEST_URI=/OAuth2-Server/index.php/site/login
+in D:\www\OAuth2-Server\protected\controllers\SiteController.php (81)
+in D:\www\OAuth2-Server\index.php (13)
+2013/09/24 15:10:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oauth2/test".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/test')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/index.php/oauth2/test
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=fe561eebba499c28&scope=openid
+---
+2013/09/24 15:17:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "test".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('test')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/index.php/test
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=fe561eebba499c28&scope=openid
+---
+2013/09/24 15:17:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "test".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('test')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/index.php/test
+---
+2013/09/24 15:18:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test".' in D:\www\framework\web\CController.php:483
+Stack trace:
+#0 D:\www\framework\web\CController.php(270): CController->missingAction('test')
+#1 D:\www\framework\web\CWebApplication.php(282): CController->run('test')
+#2 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/test')
+#3 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/OAuth2-Server/index.php/site/test
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=fe561eebba499c28&scope=openid
+---
+2013/09/24 15:18:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test".' in D:\www\framework\web\CController.php:483
+Stack trace:
+#0 D:\www\framework\web\CController.php(270): CController->missingAction('test')
+#1 D:\www\framework\web\CWebApplication.php(282): CController->run('test')
+#2 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/test')
+#3 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/OAuth2-Server/index.php/site/test
+---
+2013/09/25 10:12:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "style/default/images/ico-other-login.png".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('style/default/i...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/style/default/images/ico-other-login.png
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=eb7353592cf10b6c&scope=openid
+---
+2013/09/25 10:22:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oauth2/images/logo.gif".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/images/l...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/index.php/oauth2/images/logo.gif
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=5769fd2a160db0af&scope=openid
+---
+2013/09/25 10:22:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oauth2/images/logo.gif".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/images/l...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/index.php/oauth2/images/logo.gif
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=5769fd2a160db0af&scope=openid
+---
+2013/09/25 10:22:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oauth2/images/logo.gif".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/images/l...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/index.php/oauth2/images/logo.gif
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=5769fd2a160db0af&scope=openid
+---
+2013/09/25 10:22:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oauth2/images/logo.gif".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/images/l...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/index.php/oauth2/images/logo.gif
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=5769fd2a160db0af&scope=openid
+---
+2013/09/25 10:22:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oauth2/images/logo.gif".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/images/l...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/index.php/oauth2/images/logo.gif
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=5769fd2a160db0af&scope=openid
+---
+2013/09/25 10:22:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oauth2/images/logo.gif".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/images/l...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/index.php/oauth2/images/logo.gif
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=5769fd2a160db0af&scope=openid
+---
+2013/09/25 10:22:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oauth2/images/logo.gif".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/images/l...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/index.php/oauth2/images/logo.gif
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=5769fd2a160db0af&scope=openid
+---
+2013/09/25 10:22:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oauth2/images/logo.gif".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/images/l...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/index.php/oauth2/images/logo.gif
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=5769fd2a160db0af&scope=openid
+---
+2013/09/25 10:22:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oauth2/images/logo.gif".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/images/l...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/index.php/oauth2/images/logo.gif
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=5769fd2a160db0af&scope=openid
+---
+2013/09/25 10:22:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oauth2/images/logo.gif".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/images/l...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/index.php/oauth2/images/logo.gif
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=5769fd2a160db0af&scope=openid
+---
+2013/09/25 10:43:43 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'user.zx_user' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `zx_user`.
+in D:\www\OAuth2-Server\protected\modules\oauth2\models\OAuthUser.php (17)
+in D:\www\OAuth2-Server\protected\modules\oauth2\components\UserIdentity.php (23)
+in D:\www\OAuth2-Server\protected\modules\oauth2\models\LoginForm.php (52)
+2013/09/25 10:43:43 [error] [exception.CDbException] exception 'CDbException' with message 'The table "zx_user" for active record class "OAuthUser" cannot be found in the database.' in D:\www\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 D:\www\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(OAuthUser))
+#1 D:\www\OAuth2-Server\protected\modules\oauth2\models\OAuthUser.php(17): CActiveRecord::model('OAuthUser')
+#2 D:\www\OAuth2-Server\protected\modules\oauth2\components\UserIdentity.php(23): OAuthUser::model()
+#3 D:\www\OAuth2-Server\protected\modules\oauth2\models\LoginForm.php(52): UserIdentity->authenticate()
+#4 D:\www\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#5 D:\www\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#6 D:\www\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#7 D:\www\OAuth2-Server\protected\modules\oauth2\controllers\OauthController.php(68): CModel->validate()
+#8 D:\www\OAuth2-Server\protected\modules\oauth2\controllers\OauthController.php(48): OauthController->login()
+#9 D:\www\OAuth2-Server\protected\modules\oauth2\controllers\AuthorizeController.php(11): OauthController->actionAuthorize()
+#10 D:\www\framework\web\actions\CInlineAction.php(49): AuthorizeController->actionIndex()
+#11 D:\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 D:\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 D:\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 D:\www\framework\web\CWebApplication.php(282): CController->run('')
+#15 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/authoriz...')
+#16 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#17 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=f4b3ea1f4c3b80a1&scope=openid
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=f4b3ea1f4c3b80a1&scope=openid
+---
+2013/09/25 10:44:00 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'user.zx_user' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `zx_user`.
+in D:\www\OAuth2-Server\protected\modules\oauth2\models\OAuthUser.php (17)
+in D:\www\OAuth2-Server\protected\modules\oauth2\components\UserIdentity.php (23)
+in D:\www\OAuth2-Server\protected\modules\oauth2\models\LoginForm.php (52)
+2013/09/25 10:44:00 [error] [exception.CDbException] exception 'CDbException' with message 'The table "zx_user" for active record class "OAuthUser" cannot be found in the database.' in D:\www\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 D:\www\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(OAuthUser))
+#1 D:\www\OAuth2-Server\protected\modules\oauth2\models\OAuthUser.php(17): CActiveRecord::model('OAuthUser')
+#2 D:\www\OAuth2-Server\protected\modules\oauth2\components\UserIdentity.php(23): OAuthUser::model()
+#3 D:\www\OAuth2-Server\protected\modules\oauth2\models\LoginForm.php(52): UserIdentity->authenticate()
+#4 D:\www\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#5 D:\www\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#6 D:\www\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#7 D:\www\OAuth2-Server\protected\modules\oauth2\controllers\OauthController.php(68): CModel->validate()
+#8 D:\www\OAuth2-Server\protected\modules\oauth2\controllers\OauthController.php(48): OauthController->login()
+#9 D:\www\OAuth2-Server\protected\modules\oauth2\controllers\AuthorizeController.php(11): OauthController->actionAuthorize()
+#10 D:\www\framework\web\actions\CInlineAction.php(49): AuthorizeController->actionIndex()
+#11 D:\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 D:\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 D:\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 D:\www\framework\web\CWebApplication.php(282): CController->run('')
+#15 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/authoriz...')
+#16 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#17 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=f4b3ea1f4c3b80a1&scope=openid
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=f4b3ea1f4c3b80a1&scope=openid
+---
+2013/09/25 10:46:37 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'user.zx_user' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `zx_user`.
+in D:\www\OAuth2-Server\protected\modules\oauth2\models\OAuthUser.php (17)
+in D:\www\OAuth2-Server\protected\modules\oauth2\components\UserIdentity.php (23)
+in D:\www\OAuth2-Server\protected\modules\oauth2\models\LoginForm.php (52)
+2013/09/25 10:46:37 [error] [exception.CDbException] exception 'CDbException' with message 'The table "zx_user" for active record class "OAuthUser" cannot be found in the database.' in D:\www\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 D:\www\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(OAuthUser))
+#1 D:\www\OAuth2-Server\protected\modules\oauth2\models\OAuthUser.php(17): CActiveRecord::model('OAuthUser')
+#2 D:\www\OAuth2-Server\protected\modules\oauth2\components\UserIdentity.php(23): OAuthUser::model()
+#3 D:\www\OAuth2-Server\protected\modules\oauth2\models\LoginForm.php(52): UserIdentity->authenticate()
+#4 D:\www\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#5 D:\www\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#6 D:\www\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#7 D:\www\OAuth2-Server\protected\modules\oauth2\controllers\OauthController.php(68): CModel->validate()
+#8 D:\www\OAuth2-Server\protected\modules\oauth2\controllers\OauthController.php(48): OauthController->login()
+#9 D:\www\OAuth2-Server\protected\modules\oauth2\controllers\AuthorizeController.php(11): OauthController->actionAuthorize()
+#10 D:\www\framework\web\actions\CInlineAction.php(49): AuthorizeController->actionIndex()
+#11 D:\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 D:\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 D:\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 D:\www\framework\web\CWebApplication.php(282): CController->run('')
+#15 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/authoriz...')
+#16 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#17 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=4769e1ecfbe72e9f&scope=openid
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=4769e1ecfbe72e9f&scope=openid
+---
+2013/09/25 10:50:52 [error] [php] include(LoginForm.php): failed to open stream: No such file or directory (D:\www\framework\YiiBase.php:421)
+Stack trace:
+#0 D:\www\OAuth2-Server\protected\controllers\SiteController.php(84): spl_autoload_call()
+#1 D:\www\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#2 D:\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\www\framework\web\CController.php(286): SiteController->runAction()
+#4 D:\www\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#5 D:\www\framework\web\CWebApplication.php(282): SiteController->run()
+#6 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 D:\www\OAuth2-Server\index.php(13): CWebApplication->run()
+REQUEST_URI=/OAuth2-Server/index.php/site/login
+in D:\www\OAuth2-Server\protected\controllers\SiteController.php (84)
+in D:\www\OAuth2-Server\index.php (13)
+2013/09/25 11:16:53 [error] [php] include(LoginForm.php): failed to open stream: No such file or directory (D:\www\framework\YiiBase.php:421)
+Stack trace:
+#0 D:\www\OAuth2-Server\protected\controllers\SiteController.php(84): spl_autoload_call()
+#1 D:\www\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#2 D:\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\www\framework\web\CController.php(286): SiteController->runAction()
+#4 D:\www\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#5 D:\www\framework\web\CWebApplication.php(282): SiteController->run()
+#6 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 D:\www\OAuth2-Server\index.php(13): CWebApplication->run()
+REQUEST_URI=/OAuth2-Server/index.php/site/login
+in D:\www\OAuth2-Server\protected\controllers\SiteController.php (84)
+in D:\www\OAuth2-Server\index.php (13)
+2013/09/25 11:24:55 [error] [php] include(LoginForm.php): failed to open stream: No such file or directory (D:\www\framework\YiiBase.php:421)
+Stack trace:
+#0 D:\www\OAuth2-Server\protected\controllers\SiteController.php(84): spl_autoload_call()
+#1 D:\www\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#2 D:\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\www\framework\web\CController.php(286): SiteController->runAction()
+#4 D:\www\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#5 D:\www\framework\web\CWebApplication.php(282): SiteController->run()
+#6 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 D:\www\OAuth2-Server\index.php(13): CWebApplication->run()
+REQUEST_URI=/OAuth2-Server/index.php/site/login
+in D:\www\OAuth2-Server\protected\controllers\SiteController.php (84)
+in D:\www\OAuth2-Server\index.php (13)
+2013/09/25 11:29:53 [error] [exception.CException] exception 'CException' with message 'Property "User.user_id" is not defined.' in D:\www\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\www\framework\db\ar\CActiveRecord.php(143): CComponent->__get('user_id')
+#1 D:\www\OAuth2-Server\protected\modules\resource\controllers\GetUserController.php(14): CActiveRecord->__get('user_id')
+#2 D:\www\OAuth2-Server\protected\modules\resource\controllers\GetUserController.php(8): GetUserController->Userinfo()
+#3 D:\www\framework\web\actions\CInlineAction.php(49): GetUserController->actionGetUser()
+#4 D:\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\www\framework\web\CWebApplication.php(282): CController->run('')
+#8 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('resource/getUse...')
+#9 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/OAuth2-Server/index.php/resource/getUser
+---
+2013/09/25 11:30:39 [error] [exception.CException] exception 'CException' with message 'Property "User.user_id" is not defined.' in D:\www\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\www\framework\db\ar\CActiveRecord.php(143): CComponent->__get('user_id')
+#1 D:\www\OAuth2-Server\protected\modules\resource\controllers\GetUserController.php(14): CActiveRecord->__get('user_id')
+#2 D:\www\OAuth2-Server\protected\modules\resource\controllers\GetUserController.php(8): GetUserController->Userinfo()
+#3 D:\www\framework\web\actions\CInlineAction.php(49): GetUserController->actionGetUser()
+#4 D:\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\www\framework\web\CWebApplication.php(282): CController->run('')
+#8 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('resource/getUse...')
+#9 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/OAuth2-Server/index.php/resource/getUser
+---
+2013/09/25 11:38:24 [error] [exception.InvalidArgumentException] exception 'InvalidArgumentException' with message 'Argument "is_authorized" must be a boolean.  This method must know if the user has granted access to the client.' in D:\www\OAuth2-Server\protected\extensions\oauth2\OAuth2\Controller\AuthorizeController.php:64
+Stack trace:
+#0 D:\www\OAuth2-Server\protected\extensions\oauth2\OAuth2\Server.php(232): OAuth2\Controller\AuthorizeController->handleAuthorizeRequest(Object(OAuth2\Request), Object(OAuth2\Response), '{"info":"\u7528...', NULL)
+#1 D:\www\OAuth2-Server\protected\extensions\oauth2\OAuth.php(80): OAuth2\Server->handleAuthorizeRequest(Object(OAuth2\Request), Object(OAuth2\Response), '{"info":"\u7528...', NULL)
+#2 D:\www\OAuth2-Server\protected\modules\oauth2\controllers\OauthController.php(49): OAuth->authorize('{"info":"\u7528...', NULL)
+#3 D:\www\OAuth2-Server\protected\modules\oauth2\controllers\AuthorizeController.php(11): OauthController->actionAuthorize()
+#4 D:\www\framework\web\actions\CInlineAction.php(49): AuthorizeController->actionIndex()
+#5 D:\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\www\framework\web\CWebApplication.php(282): CController->run('')
+#9 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/authoriz...')
+#10 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=fb9603b4f35e192c&scope=openid
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=fb9603b4f35e192c&scope=openid
+---
+2013/09/25 12:34:26 [error] [php] include(LoginForm.php): failed to open stream: No such file or directory (D:\www\framework\YiiBase.php:421)
+Stack trace:
+#0 D:\www\OAuth2-Server\protected\controllers\SiteController.php(84): spl_autoload_call()
+#1 D:\www\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#2 D:\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\www\framework\web\CController.php(286): SiteController->runAction()
+#4 D:\www\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#5 D:\www\framework\web\CWebApplication.php(282): SiteController->run()
+#6 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 D:\www\OAuth2-Server\index.php(13): CWebApplication->run()
+REQUEST_URI=/OAuth2-Server/index.php/site/login
+in D:\www\OAuth2-Server\protected\controllers\SiteController.php (84)
+in D:\www\OAuth2-Server\index.php (13)
+2013/09/25 12:34:27 [error] [php] include(LoginForm.php): failed to open stream: No such file or directory (D:\www\framework\YiiBase.php:421)
+Stack trace:
+#0 D:\www\OAuth2-Server\protected\controllers\SiteController.php(84): spl_autoload_call()
+#1 D:\www\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#2 D:\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\www\framework\web\CController.php(286): SiteController->runAction()
+#4 D:\www\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#5 D:\www\framework\web\CWebApplication.php(282): SiteController->run()
+#6 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 D:\www\OAuth2-Server\index.php(13): CWebApplication->run()
+REQUEST_URI=/OAuth2-Server/index.php/site/login
+in D:\www\OAuth2-Server\protected\controllers\SiteController.php (84)
+in D:\www\OAuth2-Server\index.php (13)
+2013/09/25 12:36:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oauth2/test.php".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/test.php')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/index.php/oauth2/test.php
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=9603b2da15c2aa33&scope=openid
+---
+2013/09/25 13:29:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oauth2/test.php".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/test.php')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/index.php/oauth2/test.php
+---
+2013/09/25 15:01:27 [error] [php] include(LoginForm.php): failed to open stream: No such file or directory (D:\www\framework\YiiBase.php:421)
+Stack trace:
+#0 D:\www\OAuth2-Server\protected\controllers\SiteController.php(84): spl_autoload_call()
+#1 D:\www\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#2 D:\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\www\framework\web\CController.php(286): SiteController->runAction()
+#4 D:\www\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#5 D:\www\framework\web\CWebApplication.php(282): SiteController->run()
+#6 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 D:\www\OAuth2-Server\index.php(13): CWebApplication->run()
+REQUEST_URI=/OAuth2-Server/index.php/site/login
+in D:\www\OAuth2-Server\protected\controllers\SiteController.php (84)
+in D:\www\OAuth2-Server\index.php (13)
+2013/09/25 15:05:59 [error] [php] include(ResourceController.php): failed to open stream: No such file or directory (D:\www\framework\YiiBase.php:421)
+Stack trace:
+#0 D:\www\OAuth2-Server\protected\controllers\CheckvalueController.php(4): spl_autoload_call()
+#1 D:\www\framework\web\CWebApplication.php(354): require()
+#2 D:\www\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#3 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 D:\www\OAuth2-Server\index.php(13): CWebApplication->run()
+REQUEST_URI=/OAuth2-Server/index.php/checkvalue
+in D:\www\OAuth2-Server\protected\controllers\CheckvalueController.php (4)
+in D:\www\OAuth2-Server\index.php (13)
+2013/09/25 15:19:51 [error] [php] include(ResourceController.php): failed to open stream: No such file or directory (D:\www\framework\YiiBase.php:421)
+Stack trace:
+#0 D:\www\OAuth2-Server\protected\controllers\CheckValueController.php(4): spl_autoload_call()
+#1 D:\www\framework\web\CWebApplication.php(354): require()
+#2 D:\www\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#3 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 D:\www\OAuth2-Server\index.php(13): CWebApplication->run()
+REQUEST_URI=/OAuth2-Server/index.php/checkValue/isRegister
+in D:\www\OAuth2-Server\protected\controllers\CheckValueController.php (4)
+in D:\www\OAuth2-Server\index.php (13)
+2013/09/25 15:19:55 [error] [php] include(ResourceController.php): failed to open stream: No such file or directory (D:\www\framework\YiiBase.php:421)
+Stack trace:
+#0 D:\www\OAuth2-Server\protected\controllers\CheckValueController.php(4): spl_autoload_call()
+#1 D:\www\framework\web\CWebApplication.php(354): require()
+#2 D:\www\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#3 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 D:\www\OAuth2-Server\index.php(13): CWebApplication->run()
+REQUEST_URI=/OAuth2-Server/index.php/checkValue/isRegister
+in D:\www\OAuth2-Server\protected\controllers\CheckValueController.php (4)
+in D:\www\OAuth2-Server\index.php (13)
+2013/09/25 15:20:35 [error] [exception.CException] exception 'CException' with message 'Property "CDbCriteria.:username" is not defined.' in D:\www\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\www\framework\db\schema\CDbCriteria.php(160): CComponent->__set(':username', NULL)
+#1 D:\www\framework\db\schema\CDbCommandBuilder.php(483): CDbCriteria->__construct(Array)
+#2 D:\www\framework\db\schema\CDbCommandBuilder.php(558): CDbCommandBuilder->createCriteria(Array, Array)
+#3 D:\www\framework\db\ar\CActiveRecord.php(1481): CDbCommandBuilder->createColumnCriteria(Object(CMysqlTableSchema), 'username=:usern...', Array, Array, '`t`.')
+#4 D:\www\OAuth2-Server\protected\controllers\CheckValueController.php(11): CActiveRecord->findAllByAttributes('username=:usern...', Array)
+#5 D:\www\framework\web\actions\CInlineAction.php(49): CheckvalueController->actionIsRegister()
+#6 D:\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\www\framework\web\CWebApplication.php(282): CController->run('isRegister')
+#10 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('checkValue/isRe...')
+#11 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/OAuth2-Server/index.php/checkValue/isRegister
+---
+2013/09/25 15:21:09 [error] [exception.CException] exception 'CException' with message 'Property "CDbCriteria.:username" is not defined.' in D:\www\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\www\framework\db\schema\CDbCriteria.php(160): CComponent->__set(':username', NULL)
+#1 D:\www\framework\db\schema\CDbCommandBuilder.php(483): CDbCriteria->__construct(Array)
+#2 D:\www\framework\db\schema\CDbCommandBuilder.php(558): CDbCommandBuilder->createCriteria(Array, Array)
+#3 D:\www\framework\db\ar\CActiveRecord.php(1481): CDbCommandBuilder->createColumnCriteria(Object(CMysqlTableSchema), 'username=:usern...', Array, Array, '`t`.')
+#4 D:\www\OAuth2-Server\protected\controllers\CheckValueController.php(11): CActiveRecord->findAllByAttributes('username=:usern...', Array)
+#5 D:\www\framework\web\actions\CInlineAction.php(49): CheckvalueController->actionIsRegister()
+#6 D:\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\www\framework\web\CWebApplication.php(282): CController->run('isRegister')
+#10 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('checkValue/isRe...')
+#11 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/OAuth2-Server/index.php/checkValue/isRegister
+---
+2013/09/25 15:21:10 [error] [exception.CException] exception 'CException' with message 'Property "CDbCriteria.:username" is not defined.' in D:\www\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\www\framework\db\schema\CDbCriteria.php(160): CComponent->__set(':username', NULL)
+#1 D:\www\framework\db\schema\CDbCommandBuilder.php(483): CDbCriteria->__construct(Array)
+#2 D:\www\framework\db\schema\CDbCommandBuilder.php(558): CDbCommandBuilder->createCriteria(Array, Array)
+#3 D:\www\framework\db\ar\CActiveRecord.php(1481): CDbCommandBuilder->createColumnCriteria(Object(CMysqlTableSchema), 'username=:usern...', Array, Array, '`t`.')
+#4 D:\www\OAuth2-Server\protected\controllers\CheckValueController.php(11): CActiveRecord->findAllByAttributes('username=:usern...', Array)
+#5 D:\www\framework\web\actions\CInlineAction.php(49): CheckvalueController->actionIsRegister()
+#6 D:\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\www\framework\web\CWebApplication.php(282): CController->run('isRegister')
+#10 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('checkValue/isRe...')
+#11 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/OAuth2-Server/index.php/checkValue/isRegister
+---
+2013/09/25 15:22:13 [error] [exception.CException] exception 'CException' with message 'Property "CDbCriteria.:username" is not defined.' in D:\www\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\www\framework\db\schema\CDbCriteria.php(160): CComponent->__set(':username', NULL)
+#1 D:\www\framework\db\schema\CDbCommandBuilder.php(483): CDbCriteria->__construct(Array)
+#2 D:\www\framework\db\schema\CDbCommandBuilder.php(558): CDbCommandBuilder->createCriteria(Array, Array)
+#3 D:\www\framework\db\ar\CActiveRecord.php(1464): CDbCommandBuilder->createColumnCriteria(Object(CMysqlTableSchema), 'username=:usern...', Array, Array, '`t`.')
+#4 D:\www\OAuth2-Server\protected\controllers\CheckValueController.php(11): CActiveRecord->findByAttributes('username=:usern...', Array)
+#5 D:\www\framework\web\actions\CInlineAction.php(49): CheckvalueController->actionIsRegister()
+#6 D:\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\www\framework\web\CWebApplication.php(282): CController->run('isRegister')
+#10 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('checkValue/isRe...')
+#11 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/OAuth2-Server/index.php/checkValue/isRegister
+---
+2013/09/25 15:22:16 [error] [exception.CException] exception 'CException' with message 'Property "CDbCriteria.:username" is not defined.' in D:\www\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\www\framework\db\schema\CDbCriteria.php(160): CComponent->__set(':username', NULL)
+#1 D:\www\framework\db\schema\CDbCommandBuilder.php(483): CDbCriteria->__construct(Array)
+#2 D:\www\framework\db\schema\CDbCommandBuilder.php(558): CDbCommandBuilder->createCriteria(Array, Array)
+#3 D:\www\framework\db\ar\CActiveRecord.php(1464): CDbCommandBuilder->createColumnCriteria(Object(CMysqlTableSchema), 'username=:usern...', Array, Array, '`t`.')
+#4 D:\www\OAuth2-Server\protected\controllers\CheckValueController.php(11): CActiveRecord->findByAttributes('username=:usern...', Array)
+#5 D:\www\framework\web\actions\CInlineAction.php(49): CheckvalueController->actionIsRegister()
+#6 D:\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\www\framework\web\CWebApplication.php(282): CController->run('isRegister')
+#10 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('checkValue/isRe...')
+#11 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/OAuth2-Server/index.php/checkValue/isRegister
+---
+2013/09/25 15:22:16 [error] [exception.CException] exception 'CException' with message 'Property "CDbCriteria.:username" is not defined.' in D:\www\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\www\framework\db\schema\CDbCriteria.php(160): CComponent->__set(':username', NULL)
+#1 D:\www\framework\db\schema\CDbCommandBuilder.php(483): CDbCriteria->__construct(Array)
+#2 D:\www\framework\db\schema\CDbCommandBuilder.php(558): CDbCommandBuilder->createCriteria(Array, Array)
+#3 D:\www\framework\db\ar\CActiveRecord.php(1464): CDbCommandBuilder->createColumnCriteria(Object(CMysqlTableSchema), 'username=:usern...', Array, Array, '`t`.')
+#4 D:\www\OAuth2-Server\protected\controllers\CheckValueController.php(11): CActiveRecord->findByAttributes('username=:usern...', Array)
+#5 D:\www\framework\web\actions\CInlineAction.php(49): CheckvalueController->actionIsRegister()
+#6 D:\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\www\framework\web\CWebApplication.php(282): CController->run('isRegister')
+#10 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('checkValue/isRe...')
+#11 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/OAuth2-Server/index.php/checkValue/isRegister
+---
+2013/09/25 15:23:12 [error] [php] Invalid argument supplied for foreach() (D:\www\framework\db\schema\CDbCommandBuilder.php:567)
+Stack trace:
+#0 D:\www\framework\web\actions\CInlineAction.php(49): CheckvalueController->actionIsRegister()
+#1 D:\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\www\framework\web\CController.php(286): CheckvalueController->runAction()
+#3 D:\www\framework\web\CController.php(265): CheckvalueController->runActionWithFilters()
+#4 D:\www\framework\web\CWebApplication.php(282): CheckvalueController->run()
+#5 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 D:\www\OAuth2-Server\index.php(13): CWebApplication->run()
+REQUEST_URI=/OAuth2-Server/index.php/checkValue/isRegister
+in D:\www\OAuth2-Server\protected\controllers\CheckValueController.php (11)
+in D:\www\OAuth2-Server\index.php (13)
+2013/09/25 16:38:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oauth2/themes/theme-pic2.jpg".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/themes/t...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/index.php/oauth2/themes/theme-pic2.jpg
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=b7e1619ae30694b8&scope=openid
+---
+2013/09/25 16:38:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oauth2/themes/theme-pic1.jpg".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/themes/t...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/index.php/oauth2/themes/theme-pic1.jpg
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=b7e1619ae30694b8&scope=openid
+---
+2013/09/25 16:38:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oauth2/themes/theme-pic1.jpg".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/themes/t...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/index.php/oauth2/themes/theme-pic1.jpg
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=b7e1619ae30694b8&scope=openid
+---
+2013/09/25 16:38:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oauth2/themes/theme-pic2.jpg".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/themes/t...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/index.php/oauth2/themes/theme-pic2.jpg
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=b7e1619ae30694b8&scope=openid
+---
+2013/09/25 16:40:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oauth2/themes/theme-pic2.jpg".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/themes/t...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/index.php/oauth2/themes/theme-pic2.jpg
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=b7e1619ae30694b8&scope=openid
+---
+2013/09/25 16:41:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oauth2/themes/theme-pic2.jpg".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/themes/t...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/index.php/oauth2/themes/theme-pic2.jpg
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=b7e1619ae30694b8&scope=openid
+---
+2013/09/25 16:49:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "oauth2/images/logo.gif".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/images/l...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/index.php/oauth2/images/logo.gif
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=b7e1619ae30694b8&scope=openid
+---
+2013/09/25 17:00:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "style/default/themes/theme-pic2.jpg".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('style/default/t...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/style/default/themes/theme-pic2.jpg
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=b7e1619ae30694b8&scope=openid
+---
+2013/09/25 17:00:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "style/default/themes/theme-pic1.jpg".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('style/default/t...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/style/default/themes/theme-pic1.jpg
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=b7e1619ae30694b8&scope=openid
+---
+2013/09/25 17:00:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "style/default/themes/theme-pic2.jpg".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('style/default/t...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/style/default/themes/theme-pic2.jpg
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=b7e1619ae30694b8&scope=openid
+---
+2013/09/25 17:00:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "style/default/themes/theme-pic1.jpg".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('style/default/t...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/style/default/themes/theme-pic1.jpg
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=b7e1619ae30694b8&scope=openid
+---
+2013/09/25 17:01:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "style/default/themes/theme-pic1.jpg".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('style/default/t...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/style/default/themes/theme-pic1.jpg
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=b7e1619ae30694b8&scope=openid
+---
+2013/09/25 17:01:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "style/default/themes/theme-pic2.jpg".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('style/default/t...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/style/default/themes/theme-pic2.jpg
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize?client_id=testclient&response_type=code&state=b7e1619ae30694b8&scope=openid
+---
+2013/09/26 13:50:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "isRegisted".' in D:\www\framework\web\CController.php:483
+Stack trace:
+#0 D:\www\framework\web\CController.php(270): CController->missingAction('isRegisted')
+#1 D:\www\framework\web\CWebApplication.php(282): CController->run('isRegisted')
+#2 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('checkValue/isRe...')
+#3 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/OAuth2-Server/index.php/checkValue/isRegisted
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize/regist/client_id/testclient/response_type/code/state/807206c7b4cef4e9/scope/openid
+---
+2013/09/26 13:50:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "email".' in D:\www\framework\web\CController.php:483
+Stack trace:
+#0 D:\www\framework\web\CController.php(270): CController->missingAction('email')
+#1 D:\www\framework\web\CWebApplication.php(282): CController->run('email')
+#2 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('checkValue/emai...')
+#3 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/OAuth2-Server/index.php/checkValue/email
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize/regist/client_id/testclient/response_type/code/state/807206c7b4cef4e9/scope/openid
+---
+2013/09/26 14:07:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "isRegisted".' in D:\www\framework\web\CController.php:483
+Stack trace:
+#0 D:\www\framework\web\CController.php(270): CController->missingAction('isRegisted')
+#1 D:\www\framework\web\CWebApplication.php(282): CController->run('isRegisted')
+#2 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('checkValue/isRe...')
+#3 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/OAuth2-Server/index.php/checkValue/isRegisted
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize/regist/client_id/testclient/response_type/code/state/807206c7b4cef4e9/scope/openid
+---
+2013/09/26 14:07:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "isRegisted".' in D:\www\framework\web\CController.php:483
+Stack trace:
+#0 D:\www\framework\web\CController.php(270): CController->missingAction('isRegisted')
+#1 D:\www\framework\web\CWebApplication.php(282): CController->run('isRegisted')
+#2 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('checkValue/isRe...')
+#3 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/OAuth2-Server/index.php/checkValue/isRegisted
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize/regist/client_id/testclient/response_type/code/state/807206c7b4cef4e9/scope/openid
+---
+2013/09/26 14:07:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "isRegisted".' in D:\www\framework\web\CController.php:483
+Stack trace:
+#0 D:\www\framework\web\CController.php(270): CController->missingAction('isRegisted')
+#1 D:\www\framework\web\CWebApplication.php(282): CController->run('isRegisted')
+#2 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('checkValue/isRe...')
+#3 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/OAuth2-Server/index.php/checkValue/isRegisted
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize/regist/client_id/testclient/response_type/code/state/807206c7b4cef4e9/scope/openid
+---
+2013/09/26 14:07:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "isRegisted".' in D:\www\framework\web\CController.php:483
+Stack trace:
+#0 D:\www\framework\web\CController.php(270): CController->missingAction('isRegisted')
+#1 D:\www\framework\web\CWebApplication.php(282): CController->run('isRegisted')
+#2 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('checkValue/isRe...')
+#3 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/OAuth2-Server/index.php/checkValue/isRegisted
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize/regist/client_id/testclient/response_type/code/state/807206c7b4cef4e9/scope/openid
+---
+2013/09/26 14:07:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "isRegisted".' in D:\www\framework\web\CController.php:483
+Stack trace:
+#0 D:\www\framework\web\CController.php(270): CController->missingAction('isRegisted')
+#1 D:\www\framework\web\CWebApplication.php(282): CController->run('isRegisted')
+#2 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('checkValue/isRe...')
+#3 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/OAuth2-Server/index.php/checkValue/isRegisted
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize/regist/client_id/testclient/response_type/code/state/807206c7b4cef4e9/scope/openid
+---
+2013/09/26 14:07:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "isRegisted".' in D:\www\framework\web\CController.php:483
+Stack trace:
+#0 D:\www\framework\web\CController.php(270): CController->missingAction('isRegisted')
+#1 D:\www\framework\web\CWebApplication.php(282): CController->run('isRegisted')
+#2 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('checkValue/isRe...')
+#3 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/OAuth2-Server/index.php/checkValue/isRegisted
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize/regist/client_id/testclient/response_type/code/state/807206c7b4cef4e9/scope/openid
+---
+2013/09/26 14:07:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "isRegisted".' in D:\www\framework\web\CController.php:483
+Stack trace:
+#0 D:\www\framework\web\CController.php(270): CController->missingAction('isRegisted')
+#1 D:\www\framework\web\CWebApplication.php(282): CController->run('isRegisted')
+#2 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('checkValue/isRe...')
+#3 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/OAuth2-Server/index.php/checkValue/isRegisted
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize/regist/client_id/testclient/response_type/code/state/807206c7b4cef4e9/scope/openid
+---
+2013/09/26 14:07:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "isRegisted".' in D:\www\framework\web\CController.php:483
+Stack trace:
+#0 D:\www\framework\web\CController.php(270): CController->missingAction('isRegisted')
+#1 D:\www\framework\web\CWebApplication.php(282): CController->run('isRegisted')
+#2 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('checkValue/isRe...')
+#3 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/OAuth2-Server/index.php/checkValue/isRegisted
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize/regist/client_id/testclient/response_type/code/state/807206c7b4cef4e9/scope/openid
+---
+2013/09/26 14:07:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "isRegisted".' in D:\www\framework\web\CController.php:483
+Stack trace:
+#0 D:\www\framework\web\CController.php(270): CController->missingAction('isRegisted')
+#1 D:\www\framework\web\CWebApplication.php(282): CController->run('isRegisted')
+#2 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('checkValue/isRe...')
+#3 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/OAuth2-Server/index.php/checkValue/isRegisted
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize/regist/client_id/testclient/response_type/code/state/807206c7b4cef4e9/scope/openid
+---
+2013/09/26 14:07:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "isRegisted".' in D:\www\framework\web\CController.php:483
+Stack trace:
+#0 D:\www\framework\web\CController.php(270): CController->missingAction('isRegisted')
+#1 D:\www\framework\web\CWebApplication.php(282): CController->run('isRegisted')
+#2 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('checkValue/isRe...')
+#3 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/OAuth2-Server/index.php/checkValue/isRegisted
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize/regist/client_id/testclient/response_type/code/state/807206c7b4cef4e9/scope/openid
+---
+2013/09/26 14:07:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "isRegisted".' in D:\www\framework\web\CController.php:483
+Stack trace:
+#0 D:\www\framework\web\CController.php(270): CController->missingAction('isRegisted')
+#1 D:\www\framework\web\CWebApplication.php(282): CController->run('isRegisted')
+#2 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('checkValue/isRe...')
+#3 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/OAuth2-Server/index.php/checkValue/isRegisted
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize/regist/client_id/testclient/response_type/code/state/807206c7b4cef4e9/scope/openid
+---
+2013/09/26 14:07:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "isRegisted".' in D:\www\framework\web\CController.php:483
+Stack trace:
+#0 D:\www\framework\web\CController.php(270): CController->missingAction('isRegisted')
+#1 D:\www\framework\web\CWebApplication.php(282): CController->run('isRegisted')
+#2 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('checkValue/isRe...')
+#3 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/OAuth2-Server/index.php/checkValue/isRegisted
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize/regist/client_id/testclient/response_type/code/state/807206c7b4cef4e9/scope/openid
+---
+2013/09/26 14:07:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "isRegisted".' in D:\www\framework\web\CController.php:483
+Stack trace:
+#0 D:\www\framework\web\CController.php(270): CController->missingAction('isRegisted')
+#1 D:\www\framework\web\CWebApplication.php(282): CController->run('isRegisted')
+#2 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('checkValue/isRe...')
+#3 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/OAuth2-Server/index.php/checkValue/isRegisted
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize/regist/client_id/testclient/response_type/code/state/807206c7b4cef4e9/scope/openid
+---
+2013/09/26 14:07:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "isRegisted".' in D:\www\framework\web\CController.php:483
+Stack trace:
+#0 D:\www\framework\web\CController.php(270): CController->missingAction('isRegisted')
+#1 D:\www\framework\web\CWebApplication.php(282): CController->run('isRegisted')
+#2 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('checkValue/isRe...')
+#3 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/OAuth2-Server/index.php/checkValue/isRegisted
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize/regist/client_id/testclient/response_type/code/state/807206c7b4cef4e9/scope/openid
+---
+2013/09/26 14:07:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "isRegisted".' in D:\www\framework\web\CController.php:483
+Stack trace:
+#0 D:\www\framework\web\CController.php(270): CController->missingAction('isRegisted')
+#1 D:\www\framework\web\CWebApplication.php(282): CController->run('isRegisted')
+#2 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('checkValue/isRe...')
+#3 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/OAuth2-Server/index.php/checkValue/isRegisted
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize/regist/client_id/testclient/response_type/code/state/807206c7b4cef4e9/scope/openid
+---
+2013/09/26 14:08:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "isRegisted".' in D:\www\framework\web\CController.php:483
+Stack trace:
+#0 D:\www\framework\web\CController.php(270): CController->missingAction('isRegisted')
+#1 D:\www\framework\web\CWebApplication.php(282): CController->run('isRegisted')
+#2 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('checkValue/isRe...')
+#3 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/OAuth2-Server/index.php/checkValue/isRegisted
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize/regist/client_id/testclient/response_type/code/state/807206c7b4cef4e9/scope/openid
+---
+2013/09/26 14:08:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "isRegisted".' in D:\www\framework\web\CController.php:483
+Stack trace:
+#0 D:\www\framework\web\CController.php(270): CController->missingAction('isRegisted')
+#1 D:\www\framework\web\CWebApplication.php(282): CController->run('isRegisted')
+#2 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('checkValue/isRe...')
+#3 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/OAuth2-Server/index.php/checkValue/isRegisted
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize/regist/client_id/testclient/response_type/code/state/807206c7b4cef4e9/scope/openid
+---
+2013/09/26 14:09:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "isRegisted".' in D:\www\framework\web\CController.php:483
+Stack trace:
+#0 D:\www\framework\web\CController.php(270): CController->missingAction('isRegisted')
+#1 D:\www\framework\web\CWebApplication.php(282): CController->run('isRegisted')
+#2 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('checkValue/isRe...')
+#3 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/OAuth2-Server/index.php/checkValue/isRegisted
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize/regist/client_id/testclient/response_type/code/state/807206c7b4cef4e9/scope/openid
+---
+2013/09/26 14:10:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "isRegisted".' in D:\www\framework\web\CController.php:483
+Stack trace:
+#0 D:\www\framework\web\CController.php(270): CController->missingAction('isRegisted')
+#1 D:\www\framework\web\CWebApplication.php(282): CController->run('isRegisted')
+#2 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('checkValue/isRe...')
+#3 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/OAuth2-Server/index.php/checkValue/isRegisted
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize/regist/client_id/testclient/response_type/code/state/807206c7b4cef4e9/scope/openid
+---
+2013/09/26 14:31:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "style/default/images/regist-btn.png".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('style/default/i...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/style/default/images/regist-btn.png
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize/regist/client_id/testclient/response_type/code/state/807206c7b4cef4e9/scope/openid
+---
+2013/09/26 14:54:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "style/default/images/regist-btn.png".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('style/default/i...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/style/default/images/regist-btn.png
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize/regist/client_id/testclient/response_type/code/state/807206c7b4cef4e9/scope/openid
+---
+2013/09/26 16:54:02 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `ets_user` (`status`, `username`, `email`, `password`, `registered`, `id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5).
+in D:\www\OAuth2-Server\protected\modules\oauth2\controllers\OauthController.php (99)
+in D:\www\OAuth2-Server\index.php (13)
+2013/09/26 16:54:02 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `ets_user` (`status`, `username`, `email`, `password`, `registered`, `id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5)' in D:\www\framework\db\CDbCommand.php:357
+Stack trace:
+#0 D:\www\framework\db\ar\CActiveRecord.php(1023): CDbCommand->execute()
+#1 D:\www\framework\db\ar\CActiveRecord.php(795): CActiveRecord->insert(NULL)
+#2 D:\www\OAuth2-Server\protected\modules\oauth2\controllers\OauthController.php(99): CActiveRecord->save()
+#3 D:\www\framework\web\actions\CInlineAction.php(49): OauthController->actionRegist()
+#4 D:\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\www\framework\web\CWebApplication.php(282): CController->run('regist')
+#8 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/authoriz...')
+#9 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/OAuth2-Server/index.php/oauth2/authorize/regist/client_id/testclient/response_type/code/state/807206c7b4cef4e9/scope/openid
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize/regist/client_id/testclient/response_type/code/state/807206c7b4cef4e9/scope/openid
+---
+2013/09/26 16:56:47 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'user.ets_user' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `ets_user`.
+in D:\www\OAuth2-Server\protected\modules\oauth2\controllers\OauthController.php (95)
+in D:\www\OAuth2-Server\index.php (13)
+2013/09/26 16:56:47 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{user}}" for active record class "User" cannot be found in the database.' in D:\www\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 D:\www\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(User))
+#1 D:\www\framework\db\ar\CActiveRecord.php(402): CActiveRecord::model('User')
+#2 D:\www\framework\db\ar\CActiveRecord.php(77): CActiveRecord->getMetaData()
+#3 D:\www\OAuth2-Server\protected\modules\oauth2\controllers\OauthController.php(95): CActiveRecord->__construct()
+#4 D:\www\framework\web\actions\CInlineAction.php(49): OauthController->actionRegist()
+#5 D:\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\www\framework\web\CWebApplication.php(282): CController->run('regist')
+#9 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/authoriz...')
+#10 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/OAuth2-Server/index.php/oauth2/authorize/regist/client_id/testclient/response_type/code/state/807206c7b4cef4e9/scope/openid
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize/regist/client_id/testclient/response_type/code/state/807206c7b4cef4e9/scope/openid
+---
+2013/09/26 16:57:19 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'user.ets_user' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `ets_user`.
+in D:\www\OAuth2-Server\protected\modules\oauth2\controllers\OauthController.php (95)
+in D:\www\OAuth2-Server\index.php (13)
+2013/09/26 16:57:19 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{user}}" for active record class "User" cannot be found in the database.' in D:\www\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 D:\www\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(User))
+#1 D:\www\framework\db\ar\CActiveRecord.php(402): CActiveRecord::model('User')
+#2 D:\www\framework\db\ar\CActiveRecord.php(77): CActiveRecord->getMetaData()
+#3 D:\www\OAuth2-Server\protected\modules\oauth2\controllers\OauthController.php(95): CActiveRecord->__construct()
+#4 D:\www\framework\web\actions\CInlineAction.php(49): OauthController->actionRegist()
+#5 D:\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\www\framework\web\CWebApplication.php(282): CController->run('regist')
+#9 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2/authoriz...')
+#10 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/OAuth2-Server/index.php/oauth2/authorize/regist/client_id/testclient/response_type/code/state/807206c7b4cef4e9/scope/openid
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize/regist/client_id/testclient/response_type/code/state/807206c7b4cef4e9/scope/openid
+---
+2013/09/29 16:47:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "widget/facebox/src/closelabe.png".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('widget/facebox/...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/widget/facebox/src/closelabe.png
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize/regist/client_id/testclient/response_type/code/state/48cf1308de3a7695/scope/openid
+---
+2013/09/29 17:01:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "widget/facebox/src/loadfacebox.js".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('widget/facebox/...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/widget/facebox/src/loadfacebox.js
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize/regist/client_id/testclient/response_type/code/state/48cf1308de3a7695/scope/openid
+---
+2013/09/29 17:01:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "widget/facebox/src/loadfacebox.js".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('widget/facebox/...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/widget/facebox/src/loadfacebox.js
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize/regist/client_id/testclient/response_type/code/state/48cf1308de3a7695/scope/openid
+---
+2013/09/29 17:01:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "widget/facebox/src/loadfacebox.js".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('widget/facebox/...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/widget/facebox/src/loadfacebox.js
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize/regist/client_id/testclient/response_type/code/state/48cf1308de3a7695/scope/openid
+---
+2013/09/29 17:01:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "widget/facebox/src/loadfacebox.js".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('widget/facebox/...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/widget/facebox/src/loadfacebox.js
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize/regist/client_id/testclient/response_type/code/state/48cf1308de3a7695/scope/openid
+---
+2013/09/29 17:01:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "widget/facebox/src/loadfacebox.js".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('widget/facebox/...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/widget/facebox/src/loadfacebox.js
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize/regist/client_id/testclient/response_type/code/state/48cf1308de3a7695/scope/openid
+---
+2013/09/29 17:01:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "widget/facebox/src/loadfacebox.js".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('widget/facebox/...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/widget/facebox/src/loadfacebox.js
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize/regist/client_id/testclient/response_type/code/state/48cf1308de3a7695/scope/openid
+---
+2013/09/29 17:01:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "widget/facebox/src/loadfacebox.js".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('widget/facebox/...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/widget/facebox/src/loadfacebox.js
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize/regist/client_id/testclient/response_type/code/state/48cf1308de3a7695/scope/openid
+---
+2013/09/29 17:02:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "widget/facebox/src/loadfacebox.js".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('widget/facebox/...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/widget/facebox/src/loadfacebox.js
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize/regist/client_id/testclient/response_type/code/state/48cf1308de3a7695/scope/openid
+---
+2013/09/29 17:04:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "widget/facebox/src/loadfacebox.js".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('widget/facebox/...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/widget/facebox/src/loadfacebox.js
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize/regist/client_id/testclient/response_type/code/state/48cf1308de3a7695/scope/openid
+---
+2013/09/29 17:04:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "widget/facebox/src/loadfacebox.js".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('widget/facebox/...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/widget/facebox/src/loadfacebox.js
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize/regist/client_id/testclient/response_type/code/state/48cf1308de3a7695/scope/openid
+---
+2013/09/29 17:08:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "widget/facebox/src/loadfacebox.js".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('widget/facebox/...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/widget/facebox/src/loadfacebox.js
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize/regist/client_id/testclient/response_type/code/state/48cf1308de3a7695/scope/openid
+---
+2013/09/29 17:08:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "widget/facebox/src/loadfacebox.js".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('widget/facebox/...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/widget/facebox/src/loadfacebox.js
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize/regist/client_id/testclient/response_type/code/state/48cf1308de3a7695/scope/openid
+---
+2013/09/29 17:08:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "widget/facebox/src/loadfacebox.js".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('widget/facebox/...')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/widget/facebox/src/loadfacebox.js
+HTTP_REFERER=http://localhost/OAuth2-Server/index.php/oauth2/authorize/regist/client_id/testclient/response_type/code/state/48cf1308de3a7695/scope/openid
+---
+2013/10/11 15:28:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tets".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('tets')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/index.php/tets
+---
+2013/10/11 15:28:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "test".' in D:\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('test')
+#1 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OAuth2-Server/index.php/test
+---
+2013/10/11 15:29:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test".' in D:\www\framework\web\CController.php:483
+Stack trace:
+#0 D:\www\framework\web\CController.php(270): CController->missingAction('test')
+#1 D:\www\framework\web\CWebApplication.php(282): CController->run('test')
+#2 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/test')
+#3 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/OAuth2-Server/index.php/site/test
+---
+2013/10/11 15:32:26 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "authstring".' in D:\www\framework\base\CComponent.php:265
+Stack trace:
+#0 D:\www\OAuth2-Server\protected\controllers\SiteController.php(37): CComponent->__call('authstring', Array)
+#1 D:\www\OAuth2-Server\protected\controllers\SiteController.php(37): CWebApplication->authstring('test', 'ENCODE')
+#2 D:\www\framework\web\actions\CInlineAction.php(49): SiteController->actionTest()
+#3 D:\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\www\framework\web\CWebApplication.php(282): CController->run('test')
+#7 D:\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/test')
+#8 D:\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 D:\www\OAuth2-Server\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/OAuth2-Server/index.php/site/test
+---

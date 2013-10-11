@@ -31,7 +31,10 @@ return array(
         /**
          * password is in user table by method md5
          */
-        'oauth2' => array('userTable' => 'zx_user', ),
+        'oauth2' => array(
+            'userid' => 'id',
+            'userTable' => 'ets_user',
+            ),
         'resource',
 
         ),
@@ -56,28 +59,38 @@ return array(
         // uncomment the following to use a MySQL database
         */
         'db' => array(
-            'connectionString' => 'mysql:host=localhost;dbname=newzx',
+            'connectionString' => 'mysql:host=localhost;dbname=user',
             'emulatePrepare' => true,
             'username' => 'root',
             'password' => '',
             'charset' => 'utf8',
+            'tablePrefix' => 'ets_',
             ),
 
         'errorHandler' => array( // use 'site/error' action to display errors
                 'errorAction' => 'site/error', ),
         'log' => array(
             'class' => 'CLogRouter',
-            'routes' => array(array(
+            'routes' => array(
+                array(
                     'class' => 'CFileLogRoute',
                     'levels' => 'error, warning',
-                    ), // uncomment the following to show log messages on web pages
-                    /*
+                    ),
                 array(
-                'class'=>'CWebLogRoute',
-                ),
-                */
+                    'class' => 'CWebLogRoute',
+                    'levels' => 'profile,trace',
+                    ),
+                array(
+                    'class' => 'CProfileLogRoute',
+                    'levels' => 'profile',
+                    ),
+                // uncomment the following to show log messages on web pages
+
+                array('class' => 'CWebLogRoute', ),
+
                 ),
             ),
+            'authstring'=>array('class'=>'AuthString'),
         ),
 
     // application-level parameters that can be accessed

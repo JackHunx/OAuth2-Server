@@ -32,7 +32,11 @@ class SiteController extends Controller
 		// using the default layout 'protected/views/layouts/main.php'
 		$this->render('index');
 	}
-
+    public function actionTest()
+    {
+        echo Yii::app()->authstring->authcode('test','ENCODE');
+    }
+   
 	/**
 	 * This is the action to handle external exceptions.
 	 */
